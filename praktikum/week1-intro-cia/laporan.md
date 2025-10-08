@@ -70,7 +70,7 @@ Secara keseluruhan, kriptografi telah berevolusi dari metode sederhana dalam men
     
 ---
 
-## 7. Jawaban Pertanyaan
+## 7. commit log
     commit week1-intro-cia Author:Dhea Silvia dheasilvia51@gmail.com
-    week2-cryptosystem: implementasi Caesar Cipher dan laporan )
+  
 ```
