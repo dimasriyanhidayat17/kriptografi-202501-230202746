@@ -14,7 +14,8 @@ Kelas: 5IKRB
 4. Menyiapkan repositori GitHub sebagai media kerja praktikum.
 
 ---
-**2. Dasar Teori**
+**2.** DASAR TEORI**
+  
    2.1 Sejarah Kriptografi
 Kriptografi adalah ilmu yang mempelajari bagaimana suatu pesan
 atau dokumen kita aman, tidak bisa dibaca oleh pihak yang tidak berhak.
