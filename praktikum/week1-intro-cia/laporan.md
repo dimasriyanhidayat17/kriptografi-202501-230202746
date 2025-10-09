@@ -6,13 +6,17 @@ NIM: 230202746
 Kelas: 5IKRB
 
 ## 1. Tujuan
-(Tuliskan tujuan pembelajaran praktikum sesuai modul.)
+1. Memahami konsep dasar kriptografi, termasuk definisi, tujuan, dan prinsip utama seperti kerahasiaan, integritas, dan autentikasi.
+2. Menjelaskan sejarah perkembangan kriptografi, mulai dari kriptografi klasik (seperti Caesar Cipher dan Skitala Spartan) hingga kriptografi modern (seperti Enigma, RSA, dan AES).
+3. Mengenal komponen utama kriptosistem, yaitu plaintext, ciphertext, kunci, dan algoritma.
+4. Menerapkan contoh sederhana enkripsi dan dekripsi, seperti menggunakan Caesar Cipher untuk memahami mekanisme pengubahan pesan.
+5. Menjelaskan peran kriptografi dalam keamanan informasi modern, termasuk pada keamanan data, komunikasi, dan jaringan.
 
 ---
 
 ## 2. Dasar Teori
-(Ringkas teori relevan (cukup 2–3 paragraf).  
-Contoh: definisi cipher klasik, konsep modular aritmetika, dll.  )
+Kriptografi berasal dari bahasa Yunani, yaitu “kryptos” (tersembunyi) dan “graphein” (menulis), yang berarti menulis secara tersembunyi.
+Kriptografi adalah ilmu dan seni untuk mengamankan pesan dengan cara mengubah pesan asli (plaintext) menjadi bentuk yang tidak dapat dibaca (ciphertext) melalui proses enkripsi, dan mengembalikannya lagi ke bentuk semula melalui proses dekripsi.
 
 ---
 
@@ -20,7 +24,11 @@ Contoh: definisi cipher klasik, konsep modular aritmetika, dll.  )
 (- Python 3.x  
 - Visual Studio Code / editor lain  
 - Git dan akun GitHub  
-- Library tambahan (misalnya pycryptodome, jika diperlukan)  )
+- Library tambahan (misalnya pycryptodome, jika diperlukan)
+- Perangkat komputer/laptop
+Software kriptografi seperti:
+Python dengan library cryptography atau PyCrypto.
+Teks atau pesan asli (plaintext) yang akan dienkripsi. )
 
 ---
 
@@ -69,7 +77,9 @@ Hasil eksekusi program Caesar Cipher:
 ---
 
 ## 8. Kesimpulan
-(Tuliskan kesimpulan singkat (2–3 kalimat) berdasarkan percobaan.  )
+Kriptografi memiliki peran penting dalam menjaga keamanan data sejak zaman kuno hingga era digital saat ini.
+Dari sandi sederhana seperti Caesar Cipher hingga algoritma kompleks seperti RSA dan AES, kriptografi terus berkembang mengikuti kemajuan teknologi informasi.
+Dengan penerapan yang tepat, kriptografi menjadi fondasi utama dalam menjaga kerahasiaan, integritas, dan keaslian informasi di dunia digital modern.
 
 ---
 
@@ -82,12 +92,11 @@ Contoh:
 ---
 
 ## 10. Commit Log
-(Tuliskan bukti commit Git yang relevan.  
-Contoh:
-```
-commit abc12345
-Author: Nama Mahasiswa <email>
-Date:   2025-09-20
 
-    week2-cryptosystem: implementasi Caesar Cipher dan laporan )
+```
+commit week 1-intro-cia
+Author: Dimas Riyan Hidayat <dimasriyanhidayat01@gmail.com>
+Date:   2025-10-09
+
+    week1-pengenalan kriptografi
 ```
