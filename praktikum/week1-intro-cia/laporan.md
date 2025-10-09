@@ -1,11 +1,9 @@
 # Laporan Praktikum Kriptografi
-Minggu ke-: X  
-Topik: [judul praktikum]  
-Nama: [Nama Mahasiswa]  
-NIM: [NIM Mahasiswa]  
-Kelas: [Kelas]  
-
----
+Minggu ke-: 1
+Topik: Sejarah Kriptografi
+Nama: Dimas Riyan Hidayat 
+NIM: 230202746
+Kelas: 5IKRB 
 
 ## 1. Tujuan
 (Tuliskan tujuan pembelajaran praktikum sesuai modul.)
