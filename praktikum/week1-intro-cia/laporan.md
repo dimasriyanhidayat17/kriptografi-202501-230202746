@@ -72,4 +72,4 @@ Contoh:
 ---
 
 ## 10. Commit Log
-comit week1-intro-cia Author: safiraa1026@gmail.com
+comit week1-intro-cia pendahuluan, Author: Safira Dewi Rahmatika safiraa1026@gmail.com
