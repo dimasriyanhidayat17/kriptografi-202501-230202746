@@ -3,7 +3,7 @@ Minggu ke-: 1
 Topik: Sejarah Kriptografi
 Nama: Dimas Riyan Hidayat 
 NIM: 230202746
-Kelas: 5IKRB 
+Kelas: 5IKRB
 
 ## 1. Tujuan
 (Tuliskan tujuan pembelajaran praktikum sesuai modul.)
