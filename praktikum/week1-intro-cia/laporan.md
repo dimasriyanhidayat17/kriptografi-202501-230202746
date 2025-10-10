@@ -6,9 +6,7 @@ NIM: 230202746
 Kelas: 5IKRB
 
 ## 1. Tujuan
-(Tuliskan tujuan pembelajaran praktikum sesuai modul.)
-
----
+- Memahami konsep dasar kriptografi.
 
 ## 2. Dasar Teori
 (Ringkas teori relevan (cukup 2–3 paragraf).  
