@@ -51,12 +51,27 @@ Hasil eksekusi program Caesar Cipher:
 ---
 
 ## 7. Jawaban Pertanyaan
-(Jawab pertanyaan diskusi yang diberikan pada modul.  
-- Pertanyaan 1: …  
-- Pertanyaan 2: …  
-)
----
+Tokoh yang Dianggap sebagai Bapak Kriptografi Modern:
+Tokoh yang dianggap sebagai bapak kriptografi modern adalah Claude Shannon 👨‍💻, berkat karyanya yang meletakkan dasar teori informasi dan keamanan yang ketat.
 
+Algoritma Kunci Publik yang Populer Digunakan Saat Ini
+Algoritma kunci publik (asimetris) yang populer digunakan saat ini adalah:
+RSA (Rivest–Shamir–Adleman)
+ECC (Elliptic Curve Cryptography)
+Diffie-Hellman (DH) dan varian modernnya ECDH (untuk pertukaran kunci)
+
+Perbedaan Utama Antara Kriptografi Klasik dan Kriptografi Modern
+Perbedaan utamanya adalah:
+
+Kriptografi Klasik:
+Beroperasi pada level karakter (huruf).	
+Menggunakan algoritma sederhana (Substitusi/Transposisi).
+Umumnya hanya menggunakan kunci simetris (satu kunci).
+
+Kriptografi Modern:
+-Beroperasi pada level bit (biner 0 dan 1).
+-Menggunakan algoritma kompleks (matematika canggih).
+-Menggunakan kunci simetris dan kunci asimetris (publik/privat).
 ## 8. Kesimpulan
 Kriptografi memiliki peran penting dalam menjaga keamanan data sejak zaman kuno hingga era digital saat ini.
 Dari sandi sederhana seperti Caesar Cipher hingga algoritma kompleks seperti RSA dan AES, kriptografi terus berkembang mengikuti kemajuan teknologi informasi.
