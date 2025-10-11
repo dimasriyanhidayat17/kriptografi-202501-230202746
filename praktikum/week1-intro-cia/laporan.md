@@ -63,12 +63,11 @@ Dari sandi sederhana seperti Caesar Cipher hingga algoritma kompleks seperti RSA
 Dengan penerapan yang tepat, kriptografi menjadi fondasi utama dalam menjaga kerahasiaan, integritas, dan keaslian informasi di dunia digital modern.
 
 ## 9. Daftar Pustaka
-(Cantumkan referensi yang digunakan.  
-Contoh:  
-- Katz, J., & Lindell, Y. *Introduction to Modern Cryptography*.  
-- Stallings, W. *Cryptography and Network Security*.  )
-
----
+• Setyaningsih, Emy, “Kriptografi dan Aplikasinya Menggunakan MATLAB”, 2015, ANDI OFFSET
+Yogyakarta
+• William Stallings, Cryptography and Network Security: Principles and Practice, Pearson, 2017. 
+• Bruce Schneier, Applied Cryptography, John Wiley & Sons, 1996. 
+• Jonathan Katz and Yehuda Lindell, Introduction to Modern Cryptography, CRC Press, 2014.
 
 ## 10. Commit Log
 Author: Dimas Riyan Hidayat <dimasriyanhidayat01@gmail.com>
