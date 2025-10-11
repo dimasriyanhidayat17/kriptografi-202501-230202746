@@ -56,6 +56,7 @@ Jawab pertanyaan berikut di laporan:
 1. Siapa tokoh yang dianggap sebagai bapak kriptografi modern?
 2. Sebutkan algoritma kunci publik yang populer digunakan saat ini.
 3. Apa perbedaan utama antara kriptografi klasik dan kriptografi modern?
+   
 Jawaban.
 1. Tokoh yang dianggap sebagai bapak kriptografi modern adalah Claude Shannon, karena melalui karyanya “Communication Theory of Secrecy Systems” (1949), ia memperkenalkan dasar teori informasi dan prinsip matematis yang menjadi fondasi kriptografi modern.
 2. Algoritma kunci publik yang populer digunakan saat ini antara lain RSA, ECC (Elliptic Curve Cryptography), DSA, Diffie–Hellman, dan ElGamal.
