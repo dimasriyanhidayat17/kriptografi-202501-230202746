@@ -36,6 +36,8 @@ Contoh format:
 1. Membuat file `caesar_cipher.py` di folder `praktikum/week2-cryptosystem/src/`.
 2. Menyalin kode program dari panduan praktikum.
 3. Menjalankan program dengan perintah `python caesar_cipher.py`.)
+4. membuat diagram menggunakan draw io
+5. 
 
 ---
 
