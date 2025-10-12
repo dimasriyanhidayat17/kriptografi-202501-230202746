@@ -70,14 +70,17 @@ Hasil eksekusi program Caesar Cipher:
 ---
 
 ## 7. Jawaban Pertanyaan
-(Jawab pertanyaan diskusi yang diberikan pada modul.  
-- Pertanyaan 1: …  
-- Pertanyaan 2: …  
-)
----
+1. Komponen Utama Kriptosistem
+Sebuah kriptosistem didefinisikan oleh enam komponen inti yang bekerja sama untuk menjamin kerahasiaan data. Komponen-komponen ini meliputi Plaintext, yaitu pesan yang belum disandikan; Ciphertext, yaitu pesan yang telah diacak dan tidak dapat dibaca; Algoritma, yaitu serangkaian aturan matematis formal yang menentukan proses enkripsi dan dekripsi; dan Kunci, yaitu nilai rahasia yang mengontrol operasi Algoritma. Kedua proses krusial yang menghubungkan komponen-komponen ini adalah Enkripsi (mengubah Plaintext menjadi Ciphertext) dan Dekripsi (memulihkan Ciphertext menjadi Plaintext).
+
+2. Kelebihan dan Kelemahan Sistem Simetris dibandingkan Asimetris
+Kriptosistem terbagi menjadi dua kelas utama yang memiliki kelebihan dan kelemahan kontras. Sistem Simetris memiliki keunggulan signifikan dalam kecepatan dan efisiensi pemrosesan data, menjadikannya pilihan ideal untuk enkripsi data dalam volume besar karena ia hanya menggunakan satu kunci rahasia. Sebaliknya, Sistem Asimetris jauh lebih lambat karena membutuhkan daya komputasi yang lebih besar; namun, keunggulan utamanya terletak pada kemampuannya memecahkan masalah distribusi kunci dengan menggunakan pasangan kunci Publik dan Privat, dan juga secara inheren mendukung Tanda Tangan Digital.
+
+3. Mengapa Distribusi Kunci Menjadi Masalah Utama dalam Kriptografi Simetris
+Distribusi kunci merupakan masalah utama dalam kriptografi simetris karena seluruh keamanan sistem bergantung pada kerahasiaan satu kunci bersama yang digunakan oleh kedua belah pihak. Kunci ini harus dikirimkan dari pengirim ke penerima melalui saluran yang sudah dijamin keamanannya sebelum komunikasi terenkripsi dapat dimulai. Jika kunci dicegat oleh pihak ketiga selama proses distribusi, seluruh komunikasi yang dienkripsi menggunakan kunci tersebut akan terkompromi. Selain itu, masalah ini menjadi tidak praktis dan sulit dikelola (non-scalable) ketika jumlah pengguna dalam jaringan meningkat, karena setiap pasangan pengguna memerlukan kunci rahasia unik tersendiri.
 
 ## 8. Kesimpulan
-(Tuliskan kesimpulan singkat (2–3 kalimat) berdasarkan percobaan.  )
+Berdasarkan percobaan dan analisis yang dilakukan, dapat disimpulkan bahwa kriptosistem berfungsi melalui dua proses berlawanan, yaitu Enkripsi dan Dekripsi, yang keduanya bergantung pada kombinasi spesifik Algoritma dan Kunci untuk mengubah Plaintext menjadi Ciphertext dan sebaliknya. Perbandingan antara sistem simetris yang cepat namun bermasalah dalam distribusi kunci, dengan sistem asimetris yang lambat namun aman dalam pertukaran kunci, menegaskan bahwa pemilihan kriptosistem harus disesuaikan dengan kebutuhan kecepatan dan mekanisme pertukaran kunci yang diinginkan.
 
 ---
 
@@ -93,9 +96,9 @@ Contoh:
 (Tuliskan bukti commit Git yang relevan.  
 Contoh:
 ```
-commit abc12345
-Author: Nama Mahasiswa <email>
-Date:   2025-09-20
+commit cryptosystem
+Author: Dimas Riyan Hidayat <dimasriyanhidayat01@gmail.com>
+Date:   2025-10-12
 
     week2-cryptosystem: implementasi Caesar Cipher dan laporan )
 ```
