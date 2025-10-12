@@ -15,8 +15,9 @@ Kelas: 5IKRB
 
 
 ## 2. Dasar Teori
-(Ringkas teori relevan (cukup 2–3 paragraf).  
-Contoh: definisi cipher klasik, konsep modular aritmetika, dll.  )
+Kriptografi adalah metode untuk mengamankan pesan menggunakan sandi. Inti dari setiap sistem sandi (kriptosistem) adalah mengubah pesan biasa (Plaintext) menjadi pesan acak yang tidak dapat dibaca (Ciphertext) melalui proses Enkripsi. Proses ini dikontrol oleh Algoritma (aturan matematis, misalnya AES atau Caesar Cipher) dan Kunci (kode rahasia). Agar penerima dapat membaca pesan, proses Dekripsi membalikkan operasi tersebut, menggunakan Algoritma dan Kunci yang benar untuk mengembalikan Ciphertext menjadi Plaintext.
+
+Kriptosistem terbagi dua: Simetris dan Asimetris. Kriptografi Simetris menggunakan satu Kunci yang Sama untuk enkripsi dan dekripsi; keuntungannya adalah kecepatan, tetapi kuncinya harus dibagikan secara rahasia. Sebaliknya, Kriptografi Asimetris menggunakan pasangan kunci: Kunci Publik untuk enkripsi dan Kunci Privat untuk dekripsi. Sistem asimetris lebih lambat tetapi unggul dalam pertukaran kunci yang aman dan digunakan untuk sistem seperti RSA. Algoritma yang mendasari sandi-sandi ini, terutama yang klasik, sering kali memanfaatkan Aritmetika Modular untuk memetakan dan menggeser huruf atau angka secara berulang.
 
 ---
 
