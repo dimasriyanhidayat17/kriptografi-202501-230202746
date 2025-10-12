@@ -8,9 +8,11 @@ Kelas: 5IKRB
 ---
 
 ## 1. Tujuan
-(Tuliskan tujuan pembelajaran praktikum sesuai modul.)
+-Menganalisis struktur dasar sistem kriptografi, termasuk peran esensial dari Plaintext, Ciphertext, Kunci, dan Algoritma.
+-Mendemonstrasikan alur kerja (workflow) lengkap untuk mengubah data menjadi bentuk terenkripsi dan memulihkannya kembali.
+-Membandingkan dan membedakan dua kategori utama kriptosistem (Simetris vs. Asimetris) berdasarkan mekanisme penggunaan kuncinya.
 
----
+
 
 ## 2. Dasar Teori
 (Ringkas teori relevan (cukup 2–3 paragraf).  
