@@ -22,10 +22,11 @@ Kriptosistem terbagi dua: Simetris dan Asimetris. Kriptografi Simetris menggunak
 ---
 
 ## 3. Alat dan Bahan
-(- Python 3.x  
+(- Python 3.12  
 - Visual Studio Code / editor lain  
 - Git dan akun GitHub  
-- Library tambahan (misalnya pycryptodome, jika diperlukan)  )
+- Draw Io )
+- 
 
 ---
 
