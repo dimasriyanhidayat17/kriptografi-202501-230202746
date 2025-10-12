@@ -1,6 +1,6 @@
 # Laporan Praktikum Kriptografi
 Minggu ke-: 2  
-Topik: [judul praktikum]  
+Topik: Komponen, Enkripsi & Dekripsi, Simetris & Asimetris  
 Nama: Dimas Riyan Hidayat  
 NIM: 230202746  
 Kelas: 5IKRB 
