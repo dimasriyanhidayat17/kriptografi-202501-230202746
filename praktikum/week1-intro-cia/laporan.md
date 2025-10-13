@@ -30,6 +30,7 @@ Pada era modern, kriptografi menjadi fondasi utama dalam keamanan digital. Pengg
 - Melakukan fork repository kriptografi
 - Melakukan clone repository ke komputer lokal
 - Menulis ringkasan materi singkat
+- Menjawab Quiz 
 
 ## 5. Source Code
 (Salin kode program utama yang dibuat atau dimodifikasi.  
