@@ -145,19 +145,11 @@ if __name__ == "__main__":
     print("Decrypted :", dec)
 
 ## 6. Hasil dan Pembahasan
-(- Lampirkan screenshot hasil eksekusi program (taruh di folder `screenshots/`).  
-- Berikan tabel atau ringkasan hasil uji jika diperlukan.  
-- Jelaskan apakah hasil sesuai ekspektasi.  
-- Bahas error (jika ada) dan solusinya. 
+ Hasil dari program yang diberikan dari github menunjukan bahwa enkripsi yang digunakan adalah caesar chiper dengan hasil enkripsi hanya teks berupa huruf saja yang terenkripsi sedangkan angka tidak terenkripsi, lalu saya modifikasi programnya dengan menambahkan baris : elif char.isdigit(): # Enkripsi Angka (menggeser dalam rentang 0-9) # 48 adalah nilai ASCII untuk '0' shift = 48 # (ord(char) - shift) menghasilkan nilai 0-9 dari digit. # Kemudian geser (shift) dengan key, mod 10, dan tambahkan kembali shift. result += chr((ord(char) - shift + key) % 10 + shift) dengan menambahkan baris tersebut maka sekarang karakter angka pun menjadi ikut terenkripsi juga. untuk perbandingan hasilnya bisa dilihat pada tangkapan layar berikut 
 
-Hasil eksekusi program Caesar Cipher:
+---<img width="1366" height="728" alt="pratikum dhea" src="https://github.com/user-attachments/assets/eb770e9a-fa6c-4d7c-8ef6-fc8f1206cb0a" />
 
-![Hasil Eksekusi](screenshots/output.png)
-![Hasil Input](screenshots/input.png)
-![Hasil Output](screenshots/output.png)
-)
-
----
+<img width="1366" height="728" alt="Diagram Kriptosistem Dasar" src="https://github.com/user-attachments/assets/b53010b1-6c32-46be-b64a-7acb480ddd80" />
 
 ## 7. Jawaban Pertanyaan
 1. Sebutkan komponen utama dalam sebuah kriptosistem.
@@ -169,7 +161,7 @@ Komponen Utama dalam Sebuah Kriptosistem
 - Ciphertext (Teks Terenkripsi), Hasil dari proses enkripsi yang tidak dapat dibaca tanpa kunci dekripsi.
 - Key (Kunci), Informasi rahasia yang digunakan dalam proses enkripsi dan dekripsi.
 - Algoritma Enkripsi/Dekripsi, Metode atau aturan yang digunakan untuk menyandikan dan membuka pesan.
- 2. Kelebihan dan Kelemahan Sistem Simetris dan Asimetris
+2. Kelebihan dan Kelemahan Sistem Simetris dan Asimetris
   Sistem Kriptografi Simetris
 Kelebihan:
 Prosesnya lebih cepat karena algoritmanya sederhana.
