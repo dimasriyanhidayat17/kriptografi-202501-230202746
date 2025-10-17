@@ -33,17 +33,11 @@ Pada era modern, kriptografi menjadi fondasi utama dalam keamanan digital. Pengg
 - Menjawab Quiz 
 
 ## 5. Source Code
-(Salin kode program utama yang dibuat atau dimodifikasi.  
-Gunakan blok kode:
+blm ada code
 
 
 ## 6. Hasil dan Pembahasan
-(- Lampirkan screenshot hasil eksekusi program (taruh di folder `screenshots/`).  
-- Berikan tabel atau ringkasan hasil uji jika diperlukan.  
-- Jelaskan apakah hasil sesuai ekspektasi.  
-- Bahas error (jika ada) dan solusinya. 
-
-Hasil eksekusi program Caesar Cipher:
+ss ada di folder screenshoot 
 
 
 ## 7. Jawaban Pertanyaan
@@ -58,9 +52,7 @@ Jawaban.
 3. Perbedaan utama antara kriptografi klasik dan kriptografi modern terletak pada pendekatannya. Kriptografi klasik menggunakan teknik manipulasi huruf atau simbol secara manual dan hanya mengandalkan satu kunci (simetris), sedangkan kriptografi modern berbasis operasi matematika kompleks dalam bentuk digital serta menggunakan sistem kunci simetris maupun asimetris untuk menjamin keamanan data.
    
 ## 8. Kesimpulan
-(Tuliskan kesimpulan singkat (2–3 kalimat) berdasarkan percobaan.  )
-
----
+Pada era modern, kriptografi menjadi fondasi utama dalam keamanan digital. Penggunaan kriptografi meluas ke berbagai bidang seperti transaksi online, komunikasi terenkripsi, sistem autentikasi, hingga teknologi blockchain dan cryptocurrency. Tujuan utama dari kriptografi bukan hanya untuk menjaga kerahasiaan (confidentiality), tetapi juga menjamin integritas (integrity) data, autentikasi (authentication) pengguna, dan non-repudiation (tidak dapat disangkal) dalam komunikasi digital. Dengan demikian, kriptografi berperan penting dalam melindungi informasi dari akses dan manipulasi yang tidak sah di era teknologi informasi saat ini.
 
 ## 9. Daftar Pustaka
 (Cantumkan referensi yang digunakan.  
