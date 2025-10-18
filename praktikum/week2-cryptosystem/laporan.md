@@ -15,18 +15,15 @@ Kriptosistem adalah sistem yang digunakan untuk mengamankan data atau pesan deng
 Komponen dasar dari sebuah kriptosistem meliputi:
 1. Plaintext (teks asli)
 Pesan atau data yang belum dienkripsi. Ini adalah informasi yang ingin dilindungi.
-> Contoh: HELLO
 2. Ciphertext (teks sandi)
 Hasil dari proses enkripsi, yaitu bentuk pesan yang sudah disamarkan agar tidak bisa dibaca tanpa kunci.
-> Contoh: KHOOR (hasil enkripsi dari “HELLO”)
 3. Algoritma enkripsi
 Prosedur atau aturan matematis yang digunakan untuk mengubah plaintext menjadi ciphertext.
-> Contoh: algoritma Caesar Cipher, AES, RSA, dsb.
+Contoh: algoritma Caesar Cipher, AES, RSA, dsb.
 4. Algoritma dekripsi
 Prosedur yang digunakan untuk mengembalikan ciphertext menjadi plaintext.
 5. Kunci (key)
-Nilai rahasia yang digunakan dalam proses enkripsi dan dekripsi. Kunci ini sangat penting karena menjamin keamanan sistem.
-> Contoh: pada Caesar Cipher, kuncinya bisa berupa pergeseran huruf sebanyak 3.
+Nilai rahasia yang digunakan dalam proses enkripsi dan dekripsi. Kunci ini sangat penting karena menjamin keamanan sistem. Contoh: pada Caesar Cipher, kuncinya bisa berupa pergeseran huruf sebanyak 3.
 
 Enkripsi adalah proses mengubah pesan asli (plaintext) menjadi bentuk sandi (ciphertext) agar tidak bisa dibaca oleh orang lain.Dekripsi adalah proses mengembalikan ciphertext menjadi plaintext agar pesan bisa dibaca kembali.
 Proses ini menggunakan algoritma dan kunci (key) tertentu.Dalam sistem simetris, kunci enkripsi dan dekripsi sama.
