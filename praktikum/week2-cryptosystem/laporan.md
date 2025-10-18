@@ -48,13 +48,10 @@ Kriptosistem simetris menggunakan satu kunci yang sama untuk proses enkripsi dan
 - Terminal CMD
 
 ## 4. Langkah Percobaan
-(Tuliskan langkah yang dilakukan sesuai instruksi.  
-Contoh format:
 1. Membuat file `caesar_cipher.py` di folder `praktikum/week2-cryptosystem/src/`.
 2. Menyalin kode program dari panduan praktikum.
-3. Menjalankan program dengan perintah `python caesar_cipher.py`.)
-
----
+3. Menjalankan program dengan perintah `python caesar_cipher.py`.
+4. Menjawab quiz
 
 ## 5. Source Code
 (Salin kode program utama yang dibuat atau dimodifikasi.  
@@ -114,7 +111,6 @@ Contoh:
 ---
 
 ## 10. Commit Log
-commit abc12345
+commit week2
 Author: Safira Dewi Rahmatika safiradewirahmatika26@gmail.com
-
     week2-cryptosystem: implementasi Caesar Cipher dan laporan 
