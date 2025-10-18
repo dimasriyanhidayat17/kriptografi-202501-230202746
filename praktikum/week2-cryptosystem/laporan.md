@@ -86,14 +86,15 @@ Hasil eksekusi program Caesar Cipher:
 
 ## 7. Jawaban Pertanyaan
 Soal
-1. 
+1. Sebutkan komponen utama dalam sebuah kriptosistem.
+2. Apa kelebihan dan kelemahan sistem simetris dibandingkan asimetris?
+3. Mengapa distribusi kunci menjadi masalah utama dalam kriptografi simetris?
+   
 Jawaban.
 1. Komponen utama dalam sebuah kriptosistem:
 Komponen dasar kriptosistem terdiri dari plaintext, ciphertext, kunci (key), dan algoritma (cipher). Plaintext adalah pesan asli yang masih bisa dibaca manusia, ciphertext merupakan hasil enkripsi yang tidak dapat dibaca, kunci berfungsi sebagai nilai rahasia yang digunakan dalam proses enkripsi dan dekripsi, sedangkan algoritma adalah langkah atau aturan matematis yang digunakan untuk mengubah plaintext menjadi ciphertext dan sebaliknya.
-
 2. Kelebihan dan kelemahan sistem simetris dibandingkan asimetris:
 Kriptosistem simetris memiliki kelebihan berupa proses enkripsi dan dekripsi yang lebih cepat dan efisien, karena hanya menggunakan satu kunci yang sama. Namun, kelemahannya terletak pada keamanan distribusi kunci, sebab jika kunci tersebut bocor, semua pesan yang terenkripsi dapat terbaca. Sementara itu, sistem asimetris lebih aman dalam pertukaran kunci karena menggunakan pasangan kunci publik dan privat, tetapi prosesnya lebih lambat karena membutuhkan perhitungan yang lebih kompleks.
-
 3. Mengapa distribusi kunci menjadi masalah utama dalam kriptografi simetris:
 Distribusi kunci menjadi masalah utama karena pengirim dan penerima harus memiliki kunci yang sama, sehingga kunci tersebut harus dikirim melalui saluran komunikasi yang aman. Jika kunci tersebut dicegat atau diketahui pihak ketiga, maka seluruh sistem keamanan bisa terancam karena semua pesan yang terenkripsi dapat dengan mudah didekripsi oleh pihak yang tidak berwenang.
 
@@ -113,12 +114,7 @@ Contoh:
 ---
 
 ## 10. Commit Log
-(Tuliskan bukti commit Git yang relevan.  
-Contoh:
-```
 commit abc12345
-Author: Nama Mahasiswa <email>
-Date:   2025-09-20
+Author: Safira Dewi Rahmatika safiradewirahmatika26@gmail.com
 
-    week2-cryptosystem: implementasi Caesar Cipher dan laporan )
-```
+    week2-cryptosystem: implementasi Caesar Cipher dan laporan 
