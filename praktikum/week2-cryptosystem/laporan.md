@@ -29,9 +29,7 @@ Enkripsi adalah proses mengubah pesan asli (plaintext) menjadi bentuk sandi (cip
 Proses ini menggunakan algoritma dan kunci (key) tertentu.Dalam sistem simetris, kunci enkripsi dan dekripsi sama.
 Dalam sistem asimetris, kunci enkripsi dan dekripsi berbeda (public key & private key).
 Tujuan utamanya: menjaga kerahasiaan, keaslian, dan keamanan data.
-Contoh sederhana:
-Pesan “HELLO” dienkripsi dengan pergeseran huruf 3 → jadi “KHOOR”.
-Kemudian didekripsi kembali → “HELLO”.
+Contoh sederhana: Pesan “HELLO” dienkripsi dengan pergeseran huruf 3 jadi “KHOOR”. Kemudian didekripsi kembali “HELLO”.
 
 Kriptosistem dapat dibedakan berdasarkan jenis kunci dan cara pengolahan datanya. Berdasarkan jenis kuncinya, terdapat dua macam yaitu kriptosistem simetris dan kriptosistem asimetris. Kriptosistem simetris menggunakan satu kunci yang sama untuk proses enkripsi dan dekripsi, sehingga lebih cepat namun memiliki risiko jika kunci bocor. Contohnya yaitu AES, DES, dan Blowfish. Sementara itu, kriptosistem asimetris menggunakan dua kunci berbeda, yaitu kunci publik untuk enkripsi dan kunci privat untuk dekripsi. Sistem ini lebih aman tetapi prosesnya lebih lambat, dengan contoh seperti RSA, ECC, dan ElGamal.
 
