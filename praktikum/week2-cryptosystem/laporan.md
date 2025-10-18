@@ -6,9 +6,9 @@ NIM: 230202784
 Kelas: 5IKRB 
 
 ## 1. Tujuan
-1. menjelaskan komponen dasar pada cryptosistem
-2. menjelaskan proses enkripsi dan deskripsi sederhana
-3. mengklasifikasikan jenis" yang ada pada cryptosistem
+1. Mengidentifikasi komponen dasar kriptosistem (plaintext, ciphertext, kunci, algoritma).
+2. Menggambarkan proses enkripsi dan dekripsi sederhana.
+3. Mengklasifikasikan jenis kriptosistem (simetris dan asimetris).
    
 ## 2. Dasar Teori
 Kriptosistem adalah sistem yang digunakan untuk mengamankan data atau pesan dengan cara menyandikan (enkripsi) dan mengembalikannya ke bentuk semula (dekripsi) menggunakan algoritma dan kunci tertentu.
@@ -34,6 +34,13 @@ Contoh sederhana: Pesan “HELLO” dienkripsi dengan pergeseran huruf 3 jadi �
 Kriptosistem dapat dibedakan berdasarkan jenis kunci dan cara pengolahan datanya. Berdasarkan jenis kuncinya, terdapat dua macam yaitu kriptosistem simetris dan kriptosistem asimetris. Kriptosistem simetris menggunakan satu kunci yang sama untuk proses enkripsi dan dekripsi, sehingga lebih cepat namun memiliki risiko jika kunci bocor. Contohnya yaitu AES, DES, dan Blowfish. Sementara itu, kriptosistem asimetris menggunakan dua kunci berbeda, yaitu kunci publik untuk enkripsi dan kunci privat untuk dekripsi. Sistem ini lebih aman tetapi prosesnya lebih lambat, dengan contoh seperti RSA, ECC, dan ElGamal.
 
 Berdasarkan cara pengolahan datanya, kriptosistem dibagi menjadi substitution cipher, transposition cipher, block cipher, dan stream cipher. Substitution cipher mengganti setiap huruf dengan huruf lain, transposition cipher menukar posisi huruf, block cipher mengenkripsi data dalam blok-blok tertentu, sedangkan stream cipher mengenkripsi data per bit atau karakter. Semua jenis kriptosistem memiliki tujuan utama untuk melindungi kerahasiaan dan keamanan data agar tidak dapat diakses oleh pihak yang tidak berwenang.
+
+Ringkasan Komponen Kriptosistem:
+Kriptosistem terdiri dari empat komponen utama, yaitu plaintext, ciphertext, kunci, dan algoritma. Plaintext adalah pesan asli yang belum disandikan, sedangkan ciphertext merupakan hasil enkripsi yang tidak dapat dibaca. Kunci digunakan untuk mengontrol proses enkripsi dan dekripsi agar hanya pihak berwenang yang dapat membaca pesan. Algoritma adalah metode atau aturan yang digunakan untuk mengubah plaintext menjadi ciphertext dan sebaliknya.
+
+Perbedaan Kriptosistem Simetris dan Asimetris:
+Kriptosistem simetris menggunakan satu kunci yang sama untuk proses enkripsi dan dekripsi. Sistem ini cepat dan efisien, tetapi memiliki kelemahan dalam hal keamanan distribusi kunci. Sementara itu, kriptosistem asimetris menggunakan dua kunci berbeda, yaitu kunci publik untuk enkripsi dan kunci privat untuk dekripsi. Sistem ini lebih aman untuk pertukaran data, meskipun prosesnya lebih lambat dibandingkan sistem simetris.
+
 
 ## 3. Alat dan Bahan
 - Visual Studio Code 
@@ -78,11 +85,19 @@ Hasil eksekusi program Caesar Cipher:
 ---
 
 ## 7. Jawaban Pertanyaan
-(Jawab pertanyaan diskusi yang diberikan pada modul.  
-- Pertanyaan 1: …  
-- Pertanyaan 2: …  
-)
----
+Soal
+1. 
+Jawaban.
+1. Komponen utama dalam sebuah kriptosistem:
+Komponen dasar kriptosistem terdiri dari plaintext, ciphertext, kunci (key), dan algoritma (cipher). Plaintext adalah pesan asli yang masih bisa dibaca manusia, ciphertext merupakan hasil enkripsi yang tidak dapat dibaca, kunci berfungsi sebagai nilai rahasia yang digunakan dalam proses enkripsi dan dekripsi, sedangkan algoritma adalah langkah atau aturan matematis yang digunakan untuk mengubah plaintext menjadi ciphertext dan sebaliknya.
+
+2. Kelebihan dan kelemahan sistem simetris dibandingkan asimetris:
+Kriptosistem simetris memiliki kelebihan berupa proses enkripsi dan dekripsi yang lebih cepat dan efisien, karena hanya menggunakan satu kunci yang sama. Namun, kelemahannya terletak pada keamanan distribusi kunci, sebab jika kunci tersebut bocor, semua pesan yang terenkripsi dapat terbaca. Sementara itu, sistem asimetris lebih aman dalam pertukaran kunci karena menggunakan pasangan kunci publik dan privat, tetapi prosesnya lebih lambat karena membutuhkan perhitungan yang lebih kompleks.
+
+3. Mengapa distribusi kunci menjadi masalah utama dalam kriptografi simetris:
+Distribusi kunci menjadi masalah utama karena pengirim dan penerima harus memiliki kunci yang sama, sehingga kunci tersebut harus dikirim melalui saluran komunikasi yang aman. Jika kunci tersebut dicegat atau diketahui pihak ketiga, maka seluruh sistem keamanan bisa terancam karena semua pesan yang terenkripsi dapat dengan mudah didekripsi oleh pihak yang tidak berwenang.
+
+
 
 ## 8. Kesimpulan
 (Tuliskan kesimpulan singkat (2–3 kalimat) berdasarkan percobaan.  )
