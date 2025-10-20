@@ -72,12 +72,7 @@ Berdasarkan percobaan dan analisis yang dilakukan, dapat disimpulkan bahwa kript
 ---
 
 ## 9. Daftar Pustaka
-(Cantumkan referensi yang digunakan.  
-Contoh:  
-- Katz, J., & Lindell, Y. *Introduction to Modern Cryptography*.  
-- Stallings, W. *Cryptography and Network Security*.  )
 
----
 
 ## 10. Commit Log
 (Tuliskan bukti commit Git yang relevan.  
