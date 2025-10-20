@@ -44,42 +44,23 @@ Kriptosistem simetris menggunakan satu kunci yang sama untuk proses enkripsi dan
 
 ## 3. Alat dan Bahan
 - Visual Studio Code 
-- Git dan akun GitHub  
-- Terminal CMD
+- Git dan akun GitHub
+- Draw IO 
 
 ## 4. Langkah Percobaan
-1. Membuat file `caesar_cipher.py` di folder `praktikum/week2-cryptosystem/src/`.
-2. Menyalin kode program dari panduan praktikum.
-3. Menjalankan program dengan perintah `python caesar_cipher.py`.
-4. Menjawab quiz
+1.Membuat file caesar_cipher.py di folder praktikum/week2-cryptosystem/src/.
+2.Menyalin kode program dari panduan praktikum.
+3.Menjalankan program dengan perintah python caesar_cipher.py
+4.Membuat diagram kriptosistem di draw IO 
+5.Membuat folder praktikum/week2-cryptosystem/ berisi laporan.md dan folder screenshots.
+6.Menulis ringkasan materi singkat.
+7. Menjawab quiz
 
 ## 5. Source Code
-(Salin kode program utama yang dibuat atau dimodifikasi.  
-Gunakan blok kode:
 
-```python
-# contoh potongan kode
-def encrypt(text, key):
-    return ...
-```
-)
-
----
 
 ## 6. Hasil dan Pembahasan
-(- Lampirkan screenshot hasil eksekusi program (taruh di folder `screenshots/`).  
-- Berikan tabel atau ringkasan hasil uji jika diperlukan.  
-- Jelaskan apakah hasil sesuai ekspektasi.  
-- Bahas error (jika ada) dan solusinya. 
 
-Hasil eksekusi program Caesar Cipher:
-
-![Hasil Eksekusi](screenshots/output.png)
-![Hasil Input](screenshots/input.png)
-![Hasil Output](screenshots/output.png)
-)
-
----
 
 ## 7. Jawaban Pertanyaan
 Soal
@@ -95,12 +76,8 @@ Kriptosistem simetris memiliki kelebihan berupa proses enkripsi dan dekripsi yan
 3. Mengapa distribusi kunci menjadi masalah utama dalam kriptografi simetris:
 Distribusi kunci menjadi masalah utama karena pengirim dan penerima harus memiliki kunci yang sama, sehingga kunci tersebut harus dikirim melalui saluran komunikasi yang aman. Jika kunci tersebut dicegat atau diketahui pihak ketiga, maka seluruh sistem keamanan bisa terancam karena semua pesan yang terenkripsi dapat dengan mudah didekripsi oleh pihak yang tidak berwenang.
 
-
-
 ## 8. Kesimpulan
-(Tuliskan kesimpulan singkat (2–3 kalimat) berdasarkan percobaan.  )
 
----
 
 ## 9. Daftar Pustaka
 (Cantumkan referensi yang digunakan.  
