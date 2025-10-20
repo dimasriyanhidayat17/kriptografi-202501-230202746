@@ -46,12 +46,12 @@ Kriptosistem simetris menggunakan satu kunci yang sama untuk proses enkripsi dan
 - Draw IO 
 
 ## 4. Langkah Percobaan
-1.Membuat file caesar_cipher.py di folder praktikum/week2-cryptosystem/src/.
-2.Menyalin kode program dari panduan praktikum.
-3.Menjalankan program dengan perintah python caesar_cipher.py
-4.Membuat diagram kriptosistem di draw IO 
-5.Membuat folder praktikum/week2-cryptosystem/ berisi laporan.md dan folder screenshots.
-6.Menulis ringkasan materi singkat.
+1. Membuat file caesar_cipher.py di folder praktikum/week2-cryptosystem/src/.
+2. Menyalin kode program dari panduan praktikum.
+3. Menjalankan program dengan perintah python caesar_cipher.py
+4. Membuat diagram kriptosistem di draw IO 
+5. Membuat folder praktikum/week2-cryptosystem/ berisi laporan.md dan folder screenshots.
+6. Menulis ringkasan materi singkat.
 7. Menjawab quiz
 
 ## 5. Source Code
