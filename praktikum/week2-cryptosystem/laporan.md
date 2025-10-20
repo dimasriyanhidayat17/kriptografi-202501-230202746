@@ -33,8 +33,6 @@ Contoh sederhana: Pesan “HELLO” dienkripsi dengan pergeseran huruf 3 jadi �
 
 Kriptosistem dapat dibedakan berdasarkan jenis kunci dan cara pengolahan datanya. Berdasarkan jenis kuncinya, terdapat dua macam yaitu kriptosistem simetris dan kriptosistem asimetris. Kriptosistem simetris menggunakan satu kunci yang sama untuk proses enkripsi dan dekripsi, sehingga lebih cepat namun memiliki risiko jika kunci bocor. Contohnya yaitu AES, DES, dan Blowfish. Sementara itu, kriptosistem asimetris menggunakan dua kunci berbeda, yaitu kunci publik untuk enkripsi dan kunci privat untuk dekripsi. Sistem ini lebih aman tetapi prosesnya lebih lambat, dengan contoh seperti RSA, ECC, dan ElGamal.
 
-Berdasarkan cara pengolahan datanya, kriptosistem dibagi menjadi substitution cipher, transposition cipher, block cipher, dan stream cipher. Substitution cipher mengganti setiap huruf dengan huruf lain, transposition cipher menukar posisi huruf, block cipher mengenkripsi data dalam blok-blok tertentu, sedangkan stream cipher mengenkripsi data per bit atau karakter. Semua jenis kriptosistem memiliki tujuan utama untuk melindungi kerahasiaan dan keamanan data agar tidak dapat diakses oleh pihak yang tidak berwenang.
-
 Ringkasan Komponen Kriptosistem:
 Kriptosistem terdiri dari empat komponen utama, yaitu plaintext, ciphertext, kunci, dan algoritma. Plaintext adalah pesan asli yang belum disandikan, sedangkan ciphertext merupakan hasil enkripsi yang tidak dapat dibaca. Kunci digunakan untuk mengontrol proses enkripsi dan dekripsi agar hanya pihak berwenang yang dapat membaca pesan. Algoritma adalah metode atau aturan yang digunakan untuk mengubah plaintext menjadi ciphertext dan sebaliknya.
 
