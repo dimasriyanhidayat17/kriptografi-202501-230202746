@@ -43,38 +43,10 @@ Contoh format:
 
 ## 5. Source Code
 
-def _normalize_key(key: int) -> int:
-    """Normalize key into range 0..25."""
-    return key % 26
 
-
-def _shift_char(char: str, key: int, encrypting: bool = True) -> str:
-    """Shift a single alphabetical character by key. Preserve case."""
-    if not char.isalpha():
-        return char
-    base = ord('A') if char.isupper() else ord('a')
-    k = _normalize_key(key)
-    if not encrypting:
-        k = (-k) % 26
-    # compute shifted character
-    return chr((ord(char) - base + k) % 26 + base)
-
-
-def caesar_transform(text: str, key: int, encrypting: bool = True) -> str:
-    """
-    Transform text using Caesar cipher.
-    If encrypting True -> shift forward by key (encrypt).
-    If encrypting False -> shift backward by key (decrypt).
-    Non-alphabet characters are preserved.
-    """
-    return ''.join(_shift_char(c, key, encrypting) for c in text)
 
 ## 6. Hasil dan Pembahasan
-(- Lampirkan screenshot hasil eksekusi program (taruh di folder `screenshots/`).  
-- Berikan tabel atau ringkasan hasil uji jika diperlukan.  
-- Jelaskan apakah hasil sesuai ekspektasi.  
-- Bahas error (jika ada) dan solusinya. 
-
+Berdasarkan hasil pengujian pada proses enkripsi dan dekripsi menggunakan Caesar Cipher dengan kunci pergeseran 7, dapat disimpulkan bahwa program berjalan dengan baik dan sesuai dengan prinsip dasar kriptografi klasik. Teks asli berhasil diubah menjadi ciphertext dan dapat dikembalikan lagi ke bentuk semula tanpa kehilangan karakter atau struktur. Proses pergeseran huruf bekerja dengan benar, di mana huruf besar dan kecil tetap dipertahankan serta spasi tidak ikut terpengaruh. Hasil ini membuktikan bahwa metode Caesar Cipher dapat digunakan untuk menyembunyikan pesan sederhana secara efektif. Meskipun termasuk metode kriptografi dasar, teknik ini memberikan pemahaman penting tentang cara kerja enkripsi dan dekripsi dalam pengamanan informasi.
 Hasil eksekusi program Caesar Cipher:
 
 ![Hasil Eksekusi](screenshots/output.png)
