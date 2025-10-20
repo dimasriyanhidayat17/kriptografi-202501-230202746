@@ -42,6 +42,209 @@ Contoh format:
 ---
 
 ## 5. Source Code
+from __future__ import annotations
+import argparse
+import sys
+import logging
+from typing import Optional
+
+# Setup basic logging (user can override by setting env/log level if needed)
+logging.basicConfig(level=logging.INFO, format="%(message)s")
+logger = logging.getLogger("simple_crypto")
+
+
+def _normalize_key(key: int) -> int:
+    """Normalize key into range 0..25."""
+    return key % 26
+
+
+def _shift_char(char: str, key: int, encrypting: bool = True) -> str:
+    """Shift a single alphabetical character by key. Preserve case."""
+    if not char.isalpha():
+        return char
+    base = ord('A') if char.isupper() else ord('a')
+    k = _normalize_key(key)
+    if not encrypting:
+        k = (-k) % 26
+    # compute shifted character
+    return chr((ord(char) - base + k) % 26 + base)
+
+
+def caesar_transform(text: str, key: int, encrypting: bool = True) -> str:
+    """
+    Transform text using Caesar cipher.
+    If encrypting True -> shift forward by key (encrypt).
+    If encrypting False -> shift backward by key (decrypt).
+    Non-alphabet characters are preserved.
+    """
+    return ''.join(_shift_char(c, key, encrypting) for c in text)
+
+
+def encrypt(plaintext: str, key: int) -> str:
+    """Encrypt plaintext with Caesar cipher key."""
+    return caesar_transform(plaintext, key, encrypting=True)
+
+
+def decrypt(ciphertext: str, key: int) -> str:
+    """Decrypt ciphertext with Caesar cipher key."""
+    return caesar_transform(ciphertext, key, encrypting=False)
+
+
+def brute_force(ciphertext: str) -> dict[int, str]:
+    """Return a dict mapping key -> attempt for keys 1..25."""
+    results = {}
+    for k in range(1, 26):
+        results[k] = decrypt(ciphertext, k)
+    return results
+
+
+def _read_input_text(args: argparse.Namespace) -> str:
+    """Read text from --text, --input-file, or stdin (interactive)."""
+    if args.text is not None:
+        return args.text
+    if args.input:
+        try:
+            with open(args.input, 'r', encoding='utf-8') as f:
+                return f.read()
+        except Exception as e:
+            logger.error(f"Error reading input file '{args.input}': {e}")
+            sys.exit(2)
+    # fallback: read from stdin (useful for piping)
+    if not sys.stdin.isatty():
+        return sys.stdin.read()
+    # interactive prompt
+    prompt = "Masukkan teks: "
+    return input(prompt)
+
+
+def _write_output_text(args: argparse.Namespace, out_text: str) -> None:
+    """Write output to file if provided, otherwise to stdout."""
+    if args.output:
+        try:
+            with open(args.output, 'w', encoding='utf-8') as f:
+                f.write(out_text)
+            logger.info(f"Hasil ditulis ke file: {args.output}")
+        except Exception as e:
+            logger.error(f"Error menulis output file '{args.output}': {e}")
+            sys.exit(2)
+    else:
+        # print to stdout
+        print(out_text)
+
+
+def parse_args(argv: Optional[list[str]] = None) -> argparse.Namespace:
+    p = argparse.ArgumentParser(prog="simple_crypto.py", description="Caesar cipher utility (encrypt/decrypt/brute-force)")
+    p.add_argument("-m", "--mode", choices=["e", "d", "b"], default=None,
+                   help="Mode: e=encrypt, d=decrypt, b=brute-force")
+    p.add_argument("-k", "--key", type=int, default=0, help="Key (integer). Can be negative or >26; normalized automatically.")
+    p.add_argument("-t", "--text", type=str, default=None, help="Text to process (useful for quick commands).")
+    p.add_argument("-i", "--input", type=str, default=None, help="Input filename (reads full file).")
+    p.add_argument("-o", "--output", type=str, default=None, help="Output filename (writes result).")
+    p.add_argument("--preview", action="store_true", help="Show preview result but do not write to output file.")
+    p.add_argument("--run-tests", action="store_true", help="Run internal unit tests and exit.")
+    p.add_argument("--quiet", action="store_true", help="Minimize logging (only errors).")
+    return p.parse_args(argv)
+
+
+def main(argv: Optional[list[str]] = None) -> None:
+    args = parse_args(argv)
+
+    if args.quiet:
+        logger.setLevel(logging.ERROR)
+
+    if args.run_tests:
+        # run unit tests by invoking the test module
+        import unittest
+
+        class SimpleCryptoTests(unittest.TestCase):
+            def test_normalize_key(self):
+                self.assertEqual(_normalize_key(0), 0)
+                self.assertEqual(_normalize_key(26), 0)
+                self.assertEqual(_normalize_key(-1), 25)
+                self.assertEqual(_normalize_key(27), 1)
+
+            def test_shift_char_preserve(self):
+                self.assertEqual(_shift_char('A', 1), 'B')
+                self.assertEqual(_shift_char('z', 2), 'b')
+                self.assertEqual(_shift_char('!', 5), '!')
+                self.assertEqual(_shift_char('a', 26), 'a')
+
+            def test_encrypt_decrypt_roundtrip(self):
+                t = "Halo Bro! 123"
+                k = 5
+                c = encrypt(t, k)
+                self.assertNotEqual(c, t)
+                self.assertEqual(decrypt(c, k), t)
+
+            def test_bruteforce_contains_plain(self):
+                plain = "Secret"
+                k = 7
+                c = encrypt(plain, k)
+                bf = brute_force(c)
+                self.assertIn(k, bf)
+                self.assertEqual(bf[k], plain)
+
+        suite = unittest.defaultTestLoader.loadTestsFromTestCase(SimpleCryptoTests)
+        runner = unittest.TextTestRunner(verbosity=2)
+        runner.run(suite)
+        return
+
+    # Determine mode: priority CLI mode, else ask interactively
+    mode = args.mode
+    if mode is None:
+        mode = input("Pilih mode (e=encrypt, d=decrypt, b=brute force): ").strip().lower()
+        if mode not in ("e", "d", "b"):
+            logger.error("Mode tidak valid. Gunakan e/d/b.")
+            sys.exit(1)
+
+    text = _read_input_text(args)
+
+    if mode == "e":
+        if args.key == 0:
+            # if key was default 0 and not provided via CLI, prompt user
+            try:
+                k = int(input("Masukkan key (1-25; bisa negatif atau >26): ").strip())
+            except ValueError:
+                logger.error("Key tidak valid (harus integer).")
+                sys.exit(1)
+        else:
+            k = args.key
+        out = encrypt(text, k)
+        logger.info(f"Plaintext  : {text}")
+        logger.info(f"Ciphertext : {out}")
+
+    elif mode == "d":
+        if args.key == 0:
+            try:
+                k = int(input("Masukkan key (1-25; bisa negatif atau >26): ").strip())
+            except ValueError:
+                logger.error("Key tidak valid (harus integer).")
+                sys.exit(1)
+        else:
+            k = args.key
+        out = decrypt(text, k)
+        logger.info(f"Ciphertext : {text}")
+        logger.info(f"Plaintext  : {out}")
+
+    else:  # brute-force
+        results = brute_force(text)
+        # format nicely
+        lines = [f"Key {k:2}: {v}" for k, v in results.items()]
+        out = "\n".join(lines)
+        logger.info("Brute-force results (keys 1..25):")
+
+    # Preview prints result to stdout regardless of --output; user explicitly asked preview
+    if args.preview:
+        print("\n=== Preview ===")
+        print(out)
+        print("=== End Preview ===")
+    else:
+        # write to file or stdout depending on args
+        _write_output_text(args, out)
+
+
+if __name__ == "__main__":
+    main()
 
 ## 6. Hasil dan Pembahasan
 (- Lampirkan screenshot hasil eksekusi program (taruh di folder `screenshots/`).  
