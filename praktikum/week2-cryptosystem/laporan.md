@@ -55,7 +55,7 @@ Kriptosistem simetris menggunakan satu kunci yang sama untuk proses enkripsi dan
 7. Menjawab quiz
 
 ## 5. Source Code
-ada di gile screenshoot 
+ada di file screenshoot 
 
 
 ## 6. Hasil dan Pembahasan
