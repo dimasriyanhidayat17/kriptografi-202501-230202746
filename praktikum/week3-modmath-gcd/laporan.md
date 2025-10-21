@@ -1,11 +1,9 @@
 # Laporan Praktikum Kriptografi
-Minggu ke-: X  
-Topik: [judul praktikum]  
-Nama: [Nama Mahasiswa]  
-NIM: [NIM Mahasiswa]  
-Kelas: [Kelas]  
-
----
+Minggu ke-: 3
+Topik:   
+Nama: Safira Dewi Rahmatika 
+NIM: 230202784 
+Kelas : 5IKRB 
 
 ## 1. Tujuan
 (Tuliskan tujuan pembelajaran praktikum sesuai modul.)
