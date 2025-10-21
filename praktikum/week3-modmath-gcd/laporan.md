@@ -40,15 +40,22 @@ Contoh format:
 ## 5. Source Code
 **1. langkah 1 - Aritmatika Modular**
 
-   def mod_add(a, b, n): return (a + b) % n
-   def mod_sub(a, b, n): return (a - b) % n
-   def mod_mul(a, b, n): return (a * b) % n
-   def mod_exp(base, exp, n): return pow(base, exp, n) # eksponensiasi modular
-print("7 + 5 mod 12 =", mod_add(7, 5, 12)) print("7 * 5 mod 12 =", mod_mul(7, 5, 12)) print("7^128 mod 13 =", mod_exp(7, 128, 13))
+def mod_add(a, b, n): return (a + b) % n
+def mod_sub(a, b, n): return (a - b) % n
+def mod_mul(a, b, n): return (a * b) % n
+def mod_exp(base, exp, n): return pow(base, exp, n)  # eksponensiasi modular
+
+print("7 + 5 mod 12 =", mod_add(7, 5, 12))
+print("7 * 5 mod 12 =", mod_mul(7, 5, 12))
+print("7^128 mod 13 =", mod_exp(7, 128, 13))
 
 **2. langkah 2 -GCD & Algoritma Euclidean**
 
-   def gcd(a, b): while b != 0: a, b = b, a % b return a
+ def gcd(a, b):
+    while b != 0:
+        a, b = b, a % b
+    return a
+
 print("gcd(54, 24) =", gcd(54, 24))
 
 **3. langkah 3 - extend euclidean algorthm**
@@ -66,7 +73,6 @@ def modinv(a, n):
     return x % n
 
 print("Invers 3 mod 11 =", modinv(3, 11))  # hasil: 4
-
 **4. langkah 4 - discrete log**
 
     def discrete_log(a, b, n):
@@ -76,6 +82,7 @@ print("Invers 3 mod 11 =", modinv(3, 11))  # hasil: 4
     return None
 
 print("3^x ≡ 4 (mod 7), x =", discrete_log(3, 4, 7))  # hasil: 4
+
 
 **source code seluruhnya:**
 
@@ -113,14 +120,6 @@ def discrete_log(a, b, n):
     return None
 
 print("3^x ≡ 4 (mod 7), x =", discrete_log(3, 4, 7))  # hasil: 4
-
-    Hasil:
-7 + 5 mod 12 = 0
-7 * 5 mod 12 = 11
-7^128 mod 13 = 3
-gcd(54, 24) = 6
-Invers 3 mod 11 = 4
-3^x ≡ 4 (mod 7), x = 4
    
 ## 6. Hasil dan Pembahasan
 
