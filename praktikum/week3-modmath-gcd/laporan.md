@@ -39,6 +39,7 @@ Contoh format:
 
 ## 5. Source Code
 **1. langkah 1 - Aritmatika Modular**
+
    def mod_add(a, b, n): return (a + b) % n
    def mod_sub(a, b, n): return (a - b) % n
    def mod_mul(a, b, n): return (a * b) % n
@@ -46,10 +47,12 @@ Contoh format:
 print("7 + 5 mod 12 =", mod_add(7, 5, 12)) print("7 * 5 mod 12 =", mod_mul(7, 5, 12)) print("7^128 mod 13 =", mod_exp(7, 128, 13))
 
 **2. langkah 2 -GCD & Algoritma Euclidean**
+
    def gcd(a, b): while b != 0: a, b = b, a % b return a
 print("gcd(54, 24) =", gcd(54, 24))
 
 **3. langkah 3 - extend euclidean algorthm**
+
    def egcd(a, b):
     if a == 0:
         return b, 0, 1
@@ -65,6 +68,7 @@ def modinv(a, n):
 print("Invers 3 mod 11 =", modinv(3, 11))  # hasil: 4
 
 **4. langkah 4 - discrete log**
+
     def discrete_log(a, b, n):
     for x in range(n):
         if pow(a, x, n) == b:
@@ -74,6 +78,7 @@ print("Invers 3 mod 11 =", modinv(3, 11))  # hasil: 4
 print("3^x ≡ 4 (mod 7), x =", discrete_log(3, 4, 7))  # hasil: 4
 
 **source code seluruhnya:**
+
 def mod_add(a, b, n): return (a + b) % n
 def mod_sub(a, b, n): return (a - b) % n
 def mod_mul(a, b, n): return (a * b) % n
@@ -125,7 +130,9 @@ Hasil eksekusi program modmath:
 penje;lasan : program berjalan sesuai instruksi tanpa adanya bug.
 
 ## 7. Jawaban Pertanyaan
+
 **Pertanyaan 1** : Apa peran aritmetika modular dalam kriptografi modern
+
 Aritmetika modular berperan sangat penting dalam kriptografi modern karena menjadi dasar dalam berbagai algoritma enkripsi dan dekripsi yang mengandalkan operasi matematika dengan modulus besar.    
     Dalam sistem kriptografi seperti RSA, Diffie–Hellman, dan Elliptic Curve Cryptography (ECC), aritmetika modular digunakan untuk:
 1.Membatasi hasil perhitungan dalam rentang tertentu — operasi seperti perpangkatan atau perkalian besar akan dikembalikan ke sisa hasil pembagiannya terhadap modulus, sehingga menjaga data tetap dalam ukuran yang dapat dikelola.
@@ -133,12 +140,15 @@ Aritmetika modular berperan sangat penting dalam kriptografi modern karena menja
 3. Mendukung sifat periodik dan deterministik — setiap hasil selalu berulang dalam pola tertentu yang teratur, penting untuk memastikan konsistensi dalam proses enkripsi dan dekripsi.
 4. Mendefinisikan kunci publik dan privat — misalnya dalam RSA, operasi perpangkatan modular digunakan untuk mengenkripsi dan mendekripsi pesan menggunakan pasangan kunci tersebut.
 **Pertanyaan 2 :** Mengapa invers modular penting dalam algoritma kunci publik (misalnya RSA)?
+
 Invers modular berperan sebagai komponen kunci privat yang memungkinkan proses dekripsi bekerja dengan benar dan aman dalam sistem kriptografi kunci publik seperti RSA. Tanpa invers modular, pesan yang terenkripsi tidak akan bisa dikembalikan ke bentuk semula.
 **Pertanyaan 3 :** Apa tantangan utama dalam menyelesaikan logaritma diskrit untuk modulus besar?
+
 Tantangan utama dalam menyelesaikan logaritma diskrit (discrete logarithm) untuk modulus besar terletak pada tingkat kesulitannya yang sangat tinggi secara komputasional artinya, tidak ada algoritma efisien yang dapat menghitungnya dengan cepat ketika bilangan yang digunakan sangat besar.
 
 
 ## 8. Kesimpulan
+
 Berdasarkan hasil yang telah dilakukan , dapat disimpulkan bahwa aritmetika modular, algoritma Euclidean, invers modular, dan logaritma diskrit memiliki hubungan yang sangat erat serta menjadi fondasi utama dalam kriptografi modern.
 Aritmetika modular berfungsi untuk memastikan hasil operasi matematika tetap berada dalam batas nilai tertentu, algoritma Euclidean digunakan untuk menentukan bilangan yang relatif prima, invers modular berperan penting dalam proses dekripsi pada sistem kunci publik, sedangkan logaritma diskrit menjadi sumber keamanan utama karena tingkat kesulitannya yang tinggi ketika modulus bernilai besar.
 Secara keseluruhan, keempat konsep tersebut saling melengkapi dan menjadi komponen inti dalam membangun sistem keamanan data digital, seperti pada algoritma RSA dan Diffie–Hellman.
