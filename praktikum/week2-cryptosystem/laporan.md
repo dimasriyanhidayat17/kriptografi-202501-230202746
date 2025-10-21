@@ -55,12 +55,12 @@ Kriptosistem simetris menggunakan satu kunci yang sama untuk proses enkripsi dan
 7. Menjawab quiz
 
 ## 5. Source Code
-ada di file screenshoot 
+<img width="1920" height="1080" alt="Screenshot 2025-10-20 210552" src="https://github.com/user-attachments/assets/9d3fb24d-0caf-459a-8df5-dbc9700cd64f" />
 
 
 ## 6. Hasil dan Pembahasan
-
 <img width="1478" height="350" alt="Screenshot 2025-10-20 204854" src="https://github.com/user-attachments/assets/eb7745fe-fa87-497a-8961-1b287f5716c8" />
+<img width="1473" height="355" alt="Screenshot 2025-10-20 205305" src="https://github.com/user-attachments/assets/2db54c00-2142-49a3-a6dd-998abc7f3f51" />
 
 ## 7. Jawaban Pertanyaan
 Soal
