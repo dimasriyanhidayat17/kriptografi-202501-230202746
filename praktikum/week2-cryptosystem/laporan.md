@@ -101,6 +101,7 @@ Visual Studio Code
 akun GitHub
 Google chrome
 Google schollar.
+
 ## 4. Langkah percobaan 
 1.Membuat file simple_crypto.py di folder praktikum/week2-cryptosystem/src/.
 2.Menyalin kode program dari panduan praktikum.
@@ -180,6 +181,7 @@ Kelemahan:
 Prosesnya lebih lambat karena operasi matematikanya kompleks.
 Membutuhkan daya komputasi besar.
 Implementasinya lebih kompleks.
+
 3.Karena kriptografi simetris hanya menggunakan kunci tunggal untuk enkripsi dan dekripsi sehingga dalam proses distribusi sangat berisiko terhadapp penyadapan atau pencurian.
 
 ## 8. Kesimpulan
