@@ -73,6 +73,7 @@ def modinv(a, n):
     return x % n
 
 print("Invers 3 mod 11 =", modinv(3, 11))  # hasil: 4
+
 **4. langkah 4 - discrete log**
 
     def discrete_log(a, b, n):
