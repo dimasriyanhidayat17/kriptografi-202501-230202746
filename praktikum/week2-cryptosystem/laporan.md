@@ -78,7 +78,11 @@ Kriptosistem simetris memiliki kelebihan berupa proses enkripsi dan dekripsi yan
 Distribusi kunci menjadi masalah utama karena pengirim dan penerima harus memiliki kunci yang sama, sehingga kunci tersebut harus dikirim melalui saluran komunikasi yang aman. Jika kunci tersebut dicegat atau diketahui pihak ketiga, maka seluruh sistem keamanan bisa terancam karena semua pesan yang terenkripsi dapat dengan mudah didekripsi oleh pihak yang tidak berwenang.
 
 ## 8. Kesimpulan
+Kriptosistem merupakan sistem yang berfungsi untuk menjaga keamanan data dan informasi melalui proses enkripsi dan dekripsi, sehingga hanya pihak yang berwenang yang dapat mengakses isi pesan. Sistem ini memiliki lima komponen utama, yaitu plaintext (pesan asli), ciphertext (pesan yang telah dienkripsi), algoritma enkripsi, algoritma dekripsi, dan kunci (key). Kelima komponen tersebut bekerja secara terpadu untuk menjamin kerahasiaan, keaslian, serta integritas data selama proses penyimpanan maupun pengiriman.
 
+Berdasarkan jenisnya, kriptografi dibagi menjadi dua, yaitu kriptografi simetris dan kriptografi asimetris. Kriptografi simetris menggunakan satu kunci yang sama untuk proses enkripsi dan dekripsi, menjadikannya lebih cepat dan efisien, namun memiliki kelemahan dalam hal distribusi kunci yang rawan bocor. Sementara itu, kriptografi asimetris menggunakan dua kunci berbeda, yakni kunci publik untuk enkripsi dan kunci privat untuk dekripsi. Sistem ini lebih aman dalam pertukaran kunci, meskipun membutuhkan waktu pemrosesan yang lebih lama.
+
+Dalam penerapan modern, kedua jenis kriptografi ini sering digunakan secara bersamaan untuk menciptakan sistem keamanan data yang efisien dan kuat. Contohnya dapat dilihat pada protokol HTTPS yang digunakan dalam komunikasi internet, di mana kriptografi asimetris berfungsi untuk mengamankan pertukaran kunci, sedangkan kriptografi simetris digunakan untuk melindungi data selama proses komunikasi berlangsung. Dengan demikian, kriptosistem berperan penting dalam menjaga kepercayaan dan keamanan dalam dunia digital yang semakin berkembang.
 
 ## 9. Daftar Pustaka
 (Cantumkan referensi yang digunakan.  
