@@ -2,7 +2,7 @@
 Minggu ke-: 2
 Topik: crypto sistem 
 Nama: Safira Dewi Rahmatika 
-NIM: 230202784
+NIM : 230202784
 Kelas: 5IKRB 
 
 ## 1. Tujuan
@@ -61,6 +61,7 @@ Kriptosistem simetris menggunakan satu kunci yang sama untuk proses enkripsi dan
 ## 6. Hasil dan Pembahasan
 <img width="1478" height="350" alt="Screenshot 2025-10-20 204854" src="https://github.com/user-attachments/assets/eb7745fe-fa87-497a-8961-1b287f5716c8" />
 <img width="1473" height="355" alt="Screenshot 2025-10-20 205305" src="https://github.com/user-attachments/assets/2db54c00-2142-49a3-a6dd-998abc7f3f51" />
+<img width="581" height="303" alt="enkripsi drawio" src="https://github.com/user-attachments/assets/8f90b23d-03f9-4c7a-9d36-6ecb4dc3af57" />
 
 ## 7. Jawaban Pertanyaan
 Soal
