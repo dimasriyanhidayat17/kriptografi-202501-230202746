@@ -1,6 +1,6 @@
 # Laporan Praktikum Kriptografi
 Minggu ke-: 3
-Topik:   
+Topik: Modular Math (Aritmetika Modular, GCD, Bilangan Prima, Logaritma Diskrit)
 Nama: Safira Dewi Rahmatika 
 NIM: 230202784 
 Kelas : 5IKRB 
