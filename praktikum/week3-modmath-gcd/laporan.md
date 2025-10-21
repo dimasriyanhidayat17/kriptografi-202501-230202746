@@ -138,9 +138,11 @@ Aritmetika modular berperan sangat penting dalam kriptografi modern karena menja
 2.Menjamin keamanan enkripsi — sifat sulitnya membalik operasi modular (misalnya mencari akar modulo atau invers modulo besar) membuat algoritma tersebut tahan terhadap serangan brute force.
 3. Mendukung sifat periodik dan deterministik — setiap hasil selalu berulang dalam pola tertentu yang teratur, penting untuk memastikan konsistensi dalam proses enkripsi dan dekripsi.
 4. Mendefinisikan kunci publik dan privat — misalnya dalam RSA, operasi perpangkatan modular digunakan untuk mengenkripsi dan mendekripsi pesan menggunakan pasangan kunci tersebut.
+
 **Pertanyaan 2 :** Mengapa invers modular penting dalam algoritma kunci publik (misalnya RSA)?
 
 Invers modular berperan sebagai komponen kunci privat yang memungkinkan proses dekripsi bekerja dengan benar dan aman dalam sistem kriptografi kunci publik seperti RSA. Tanpa invers modular, pesan yang terenkripsi tidak akan bisa dikembalikan ke bentuk semula.
+
 **Pertanyaan 3 :** Apa tantangan utama dalam menyelesaikan logaritma diskrit untuk modulus besar?
 
 Tantangan utama dalam menyelesaikan logaritma diskrit (discrete logarithm) untuk modulus besar terletak pada tingkat kesulitannya yang sangat tinggi secara komputasional artinya, tidak ada algoritma efisien yang dapat menghitungnya dengan cepat ketika bilangan yang digunakan sangat besar.
