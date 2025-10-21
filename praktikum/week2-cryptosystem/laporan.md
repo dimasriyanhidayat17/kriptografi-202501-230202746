@@ -16,10 +16,9 @@ Kriptografi adalah metode untuk mengamankan pesan menggunakan sandi. Inti dari s
 Kriptosistem terbagi dua: Simetris dan Asimetris. Kriptografi Simetris menggunakan satu Kunci yang Sama untuk enkripsi dan dekripsi; keuntungannya adalah kecepatan, tetapi kuncinya harus dibagikan secara rahasia. Sebaliknya, Kriptografi Asimetris menggunakan pasangan kunci: Kunci Publik untuk enkripsi dan Kunci Privat untuk dekripsi. Sistem asimetris lebih lambat tetapi unggul dalam pertukaran kunci yang aman dan digunakan untuk sistem seperti RSA. Algoritma yang mendasari sandi-sandi ini, terutama yang klasik, sering kali memanfaatkan Aritmetika Modular untuk memetakan dan menggeser huruf atau angka secara berulang.
 
 ## 3. Alat dan Bahan
-(- Python 3.12  
 - Visual Studio Code / editor lain  
 - Git dan akun GitHub  
-- Draw Io )
+- Draw Io 
 
 ## 4. Langkah Percobaan
 1. Membuat file `caesar_cipher.py` di folder `praktikum/week2-cryptosystem/src/`.
