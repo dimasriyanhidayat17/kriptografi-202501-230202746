@@ -188,7 +188,7 @@ Implementasinya lebih kompleks.
 Penggunaan kriptografi sangat penting untuk menjaga kerahasiaan data melalui proses enkripsi dan dekripsi. Selain itu kriptografi dibagi menjadi 2 yaitu simetris dan asimetris, dimana kriptografi simetris menggunakan satu kunci untuk enkripsi dan dekripsi sedangkan kriptografi asimetris menggunakan dua kunci yang berbeda.
 
 ## 9. Daftar Pustaka
-UNES Journal of Information System COMPARISON OF SYMMETRIC AND ASYMMETRIC CRYPTOGRAPHIC. (2023). 8(1), 42–47.
+
 ## 10. Commit Log
 commit week2-cryptosystem
 Author: Dhea silvia <dheasilvia51@gmail.com>
