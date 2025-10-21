@@ -59,7 +59,7 @@ ada di file screenshoot
 
 
 ## 6. Hasil dan Pembahasan
-ada di file screenshoot 
+
 <img width="1478" height="350" alt="Screenshot 2025-10-20 204854" src="https://github.com/user-attachments/assets/eb7745fe-fa87-497a-8961-1b287f5716c8" />
 
 ## 7. Jawaban Pertanyaan
