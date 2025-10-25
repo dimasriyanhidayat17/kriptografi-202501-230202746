@@ -1,6 +1,6 @@
 # Laporan Praktikum Kriptografi
 Minggu ke-: 3  
-Topik: [judul praktikum]  
+Topik: Modular Math (Aritmetika Modular, GCD, Bilangan Prima, Logaritma Diskrit) 
 Nama: Dimas Riyan Hidayat  
 NIM: 230202746 
 Kelas: 5IKRB  
