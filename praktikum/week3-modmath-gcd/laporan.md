@@ -14,10 +14,12 @@ Kelas: 5IKRB
 
 
 ## 2. Dasar Teori
-(Ringkas teori relevan (cukup 2–3 paragraf).  
-Contoh: definisi cipher klasik, konsep modular aritmetika, dll.  )
-
----
+1. Aritmatika
+   Aritmetika modular merupakan cabang dari matematika yang mempelajari operasi bilangan dengan sistem sisa bagi. Dalam sistem ini, dua bilangan dikatakan kongruen jika memiliki sisa yang sama ketika dibagi oleh suatu bilangan tertentu yang disebut modulus. Konsep ini banyak digunakan dalam kriptografi, sistem komputer, dan teori bilangan karena memungkinkan operasi aritmetika dilakukan secara efisien dan terbatas dalam ruang tertentu.
+2. GCD
+   Greatest Common Divisor (GCD) atau pembagi bersama terbesar adalah bilangan bulat positif terbesar yang dapat membagi dua bilangan tanpa meninggalkan sisa. Konsep GCD penting dalam menyederhanakan pecahan, menentukan koprimalitas dua bilangan, dan menjadi dasar dalam algoritma kriptografi seperti RSA. Proses pencarian GCD umumnya dilakukan menggunakan algoritma Euclidean yang efisien dan sederhana.
+3. Bilangan Prima
+   Bilangan prima adalah bilangan yang lebih besar dari satu dan hanya memiliki dua faktor, yaitu satu dan dirinya sendiri. Bilangan prima menjadi dasar penting dalam teori bilangan karena setiap bilangan bulat positif dapat diuraikan menjadi hasil kali bilangan-bilangan prima secara unik. Dalam kriptografi modern, bilangan prima digunakan untuk membangun sistem keamanan yang sulit dipecahkan, seperti dalam algoritma RSA yang memanfaatkan kesulitan faktorisasi bilangan besar.
 
 ## 3. Alat dan Bahan
 - Python 3.x  
