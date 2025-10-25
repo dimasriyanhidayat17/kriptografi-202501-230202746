@@ -68,9 +68,7 @@ Tantangan utama dalam menyelesaikan logaritma diskrit dengan modulus besar adala
 
 
 ## 8. Kesimpulan
-(Tuliskan kesimpulan singkat (2–3 kalimat) berdasarkan percobaan.  )
-
----
+Berdasarkan percobaan yang dilakukan, dapat disimpulkan bahwa operasi aritmetika modular, GCD, invers modular, dan logaritma diskrit memiliki peran penting dalam dasar perhitungan kriptografi. Konsep-konsep tersebut memastikan proses enkripsi dan dekripsi berjalan aman serta efisien dalam sistem kunci publik seperti RSA. Kesulitan dalam menghitung logaritma diskrit untuk modulus besar juga menjadi faktor utama yang menjamin keamanan algoritma kriptografi modern.
 
 ## 9. Daftar Pustaka
 
