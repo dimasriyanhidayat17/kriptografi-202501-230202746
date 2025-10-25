@@ -88,4 +88,4 @@ commit
 Author: Safira Dewi Rahmatika safiraa1026@gmail.com
 Date:   2025-10-25
 
-    week3-modular math
+    week3-modular math : (Aritmetika Modular, GCD, Bilangan Prima, Logaritma Diskrit)
