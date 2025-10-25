@@ -24,7 +24,7 @@ Logaritma Diskrit adalah kebalikan dari perpangkatan dalam sistem modular, yaitu
 - Git dan akun GitHub  
 
 ## 4. Langkah Percobaan
-
+1. 
 
 ## 5. Source Code
 (Salin kode program utama yang dibuat atau dimodifikasi.  
@@ -55,11 +55,20 @@ Hasil eksekusi program Caesar Cipher:
 ---
 
 ## 7. Jawaban Pertanyaan
-(Jawab pertanyaan diskusi yang diberikan pada modul.  
-- Pertanyaan 1: …  
-- Pertanyaan 2: …  
-)
----
+Soall
+1. Apa peran aritmetika modular dalam kriptografi modern?
+2. Mengapa invers modular penting dalam algoritma kunci publik (misalnya RSA)?
+3. Apa tantangan utama dalam menyelesaikan logaritma diskrit untuk modulus besar?
+   
+Jawaban
+1. Peran aritmetika modular dalam kriptografi modern
+Aritmetika modular berperan penting dalam kriptografi modern karena menjadi dasar dari berbagai algoritma kunci publik seperti RSA, Diffie–Hellman, dan Elliptic Curve Cryptography (ECC). Dengan menggunakan operasi matematika yang dilakukan dalam sistem modulo, hasil perhitungan selalu berada dalam batas tertentu meskipun melibatkan bilangan yang sangat besar. Hal ini membuat proses enkripsi dan dekripsi dapat dilakukan dengan efisien serta menjaga keamanan data, karena operasi kebalikannya (misalnya mencari akar atau logaritma modular) sangat sulit diselesaikan tanpa kunci yang benar.
+
+2. Mengapa invers modular penting dalam algoritma kunci publik (misalnya RSA)
+Invers modular sangat penting dalam algoritma RSA karena digunakan untuk membalikkan proses enkripsi menjadi dekripsi. Dalam RSA, kunci publik terdiri dari pasangan , sedangkan kunci privat adalah . Nilai  diperoleh sebagai invers modular dari  terhadap , sehingga memenuhi persamaan . Hubungan ini memastikan bahwa hanya pemilik kunci privat yang dapat mengembalikan pesan terenkripsi ke bentuk aslinya. Tanpa invers modular, proses dekripsi tidak dapat dilakukan dengan benar, dan sistem RSA tidak akan berfungsi sebagaimana mestinya.
+
+3. Tantangan utama dalam menyelesaikan logaritma diskrit untuk modulus besar
+Tantangan utama dalam menyelesaikan logaritma diskrit untuk modulus besar terletak pada tingkat kesulitannya yang sangat tinggi secara komputasional. Masalah logaritma diskrit berarti mencari nilai  pada persamaan , dan hingga saat ini belum ada algoritma yang efisien untuk menyelesaikannya ketika modulus  berukuran besar. Waktu yang dibutuhkan meningkat secara eksponensial terhadap ukuran modulus, sehingga metode seperti Baby-step Giant-step, Pollard’s Rho, maupun Number Field Sieve menjadi tidak praktis. Kesulitan inilah yang menjadi dasar keamanan dari algoritma kriptografi seperti Diffie–Hellman dan ElGamal.
 
 ## 8. Kesimpulan
 (Tuliskan kesimpulan singkat (2–3 kalimat) berdasarkan percobaan.  )
@@ -75,12 +84,8 @@ Contoh:
 ---
 
 ## 10. Commit Log
-(Tuliskan bukti commit Git yang relevan.  
-Contoh:
-```
-commit abc12345
-Author: Nama Mahasiswa <email>
-Date:   2025-09-20
+commit
+Author: Safira Dewi Rahmatika safiraa1026@gmail.com
+Date:   2025-10-25
 
-    week2-cryptosystem: implementasi Caesar Cipher dan laporan )
-```
+    week3-modular math
