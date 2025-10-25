@@ -57,11 +57,15 @@ Hasil eksekusi program Caesar Cipher:
 ---
 
 ## 7. Jawaban Pertanyaan
-(Jawab pertanyaan diskusi yang diberikan pada modul.  
-- Pertanyaan 1: …  
-- Pertanyaan 2: …  
-)
----
+1. Apa peran aritmetika modular dalam kriptografi modern?
+Aritmetika modular memiliki peran yang sangat penting dalam kriptografi modern karena hampir semua algoritma kriptografi berbasis matematika menggunakan operasi dalam sistem modulo. Prinsip ini memungkinkan perhitungan dilakukan dalam ruang bilangan yang terbatas, sehingga menjaga efisiensi komputasi sekaligus meningkatkan keamanan. Misalnya, dalam algoritma RSA, operasi enkripsi dan dekripsi menggunakan perpangkatan modular untuk mengubah dan mengembalikan pesan secara aman. Aritmetika modular juga digunakan dalam pembangkitan kunci, tanda tangan digital, dan algoritma pertukaran kunci seperti Diffie-Hellman.
+
+2. Mengapa invers modular penting dalam algoritma kunci publik (misalnya RSA)?
+Invers modular sangat penting karena berfungsi sebagai kunci untuk proses dekripsi dalam sistem kriptografi kunci publik seperti RSA. Dalam RSA, dua kunci yang saling berkaitan—kunci publik (e, n) dan kunci privat (d, n)—dibentuk sedemikian rupa sehingga 𝑒×𝑑≡1(mod𝜑(𝑛))e×d≡1(modφ(n)), artinya 𝑑 adalah invers modular dari 𝑒 terhadap 𝜑(𝑛). Tanpa kemampuan untuk menghitung invers modular, proses dekripsi tidak dapat dilakukan dengan benar karena pesan terenkripsi tidak dapat dikembalikan ke bentuk aslinya. Dengan kata lain, invers modular menjamin bahwa hanya pemilik kunci privat yang dapat memulihkan pesan asli dari ciphertext.
+
+3. Apa tantangan utama dalam menyelesaikan logaritma diskrit untuk modulus besar?
+Tantangan utama dalam menyelesaikan logaritma diskrit dengan modulus besar adalah kompleksitas komputasi yang sangat tinggi. Tidak ada algoritma efisien yang dapat menghitung nilai 𝑥 dalam persamaan 𝑎𝑥≡𝑏(mod𝑛)ax≡b(modn) untuk bilangan besar dalam waktu yang wajar. Ketika modulus 𝑛 berukuran ratusan atau ribuan bit, proses pencarian 𝑥 menjadi hampir mustahil dilakukan dengan kekuatan komputasi konvensional. Kesulitan inilah yang menjadi dasar keamanan berbagai sistem kriptografi modern seperti Diffie-Hellman dan ElGamal, karena meskipun operasi eksponensiasi modular mudah dilakukan, operasi kebalikannya—logaritma diskrit—sangat sulit dihitung.
+
 
 ## 8. Kesimpulan
 (Tuliskan kesimpulan singkat (2–3 kalimat) berdasarkan percobaan.  )
@@ -69,12 +73,6 @@ Hasil eksekusi program Caesar Cipher:
 ---
 
 ## 9. Daftar Pustaka
-(Cantumkan referensi yang digunakan.  
-Contoh:  
-- Katz, J., & Lindell, Y. *Introduction to Modern Cryptography*.  
-- Stallings, W. *Cryptography and Network Security*.  )
-
----
 
 ## 10. Commit Log
 (Tuliskan bukti commit Git yang relevan.  
