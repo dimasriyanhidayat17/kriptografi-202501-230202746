@@ -73,12 +73,7 @@ Berdasarkan percobaan yang dilakukan, dapat disimpulkan bahwa operasi aritmetika
 ## 9. Daftar Pustaka
 
 ## 10. Commit Log
-(Tuliskan bukti commit Git yang relevan.  
-Contoh:
-```
-commit abc12345
-Author: Nama Mahasiswa <email>
-Date:   2025-09-20
+week3-modmath-gcd
+Author: Dimas Riyan Hidayat <dimasriyanhidayat01@gmail.com>
+Date:   2025-10-26
 
-    week2-cryptosystem: implementasi Caesar Cipher dan laporan )
-```
