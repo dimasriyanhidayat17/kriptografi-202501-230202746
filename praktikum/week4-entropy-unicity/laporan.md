@@ -1,11 +1,9 @@
 # Laporan Praktikum Kriptografi
-Minggu ke-: X  
+Minggu ke-: 4  
 Topik: [judul praktikum]  
-Nama: [Nama Mahasiswa]  
-NIM: [NIM Mahasiswa]  
-Kelas: [Kelas]  
-
----
+Nama: Dimas Riyan Hidayat  
+NIM: 230202746  
+Kelas: 5IKRB 
 
 ## 1. Tujuan
 (Tuliskan tujuan pembelajaran praktikum sesuai modul.)
@@ -76,12 +74,6 @@ Hasil eksekusi program Caesar Cipher:
 ---
 
 ## 9. Daftar Pustaka
-(Cantumkan referensi yang digunakan.  
-Contoh:  
-- Katz, J., & Lindell, Y. *Introduction to Modern Cryptography*.  
-- Stallings, W. *Cryptography and Network Security*.  )
-
----
 
 ## 10. Commit Log
 (Tuliskan bukti commit Git yang relevan.  
