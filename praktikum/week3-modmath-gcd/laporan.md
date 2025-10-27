@@ -35,24 +35,17 @@ Contoh format:
 ---
 
 ## 5. Source Code
+<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/2d43c2d8-2b76-4e1d-8a2b-7cbca119164c" />
 
 
 
 
 ## 6. Hasil dan Pembahasan
-(- Lampirkan screenshot hasil eksekusi program (taruh di folder `screenshots/`).  
-- Berikan tabel atau ringkasan hasil uji jika diperlukan.  
-- Jelaskan apakah hasil sesuai ekspektasi.  
-- Bahas error (jika ada) dan solusinya. 
+<img width="516" height="540" alt="image" src="https://github.com/user-attachments/assets/8c290ade-6477-4fcb-b389-2ad386fe8619" />
+<img width="519" height="493" alt="image" src="https://github.com/user-attachments/assets/cdd427e4-d474-4985-9a77-f6e2c0521ee1" />
 
-Hasil eksekusi program Caesar Cipher:
 
-![Hasil Eksekusi](screenshots/output.png)
-![Hasil Input](screenshots/input.png)
-![Hasil Output](screenshots/output.png)
-)
 
----
 
 ## 7. Jawaban Pertanyaan
 1. Apa peran aritmetika modular dalam kriptografi modern?
