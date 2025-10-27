@@ -24,35 +24,16 @@ Logaritma Diskrit adalah kebalikan dari perpangkatan dalam sistem modular, yaitu
 - Git dan akun GitHub  
 
 ## 4. Langkah Percobaan
-1. 
+1. Membuat file modular math.py di folder praktikum/week 3-modmath/src/modularmath.py
+2. Menyalin kode program dari panduan praktikum
+3. Menjalankan program dengan perintah python modular math.py
+4. Screenshoot hasil program dan ditaruh didalam folder praktikum/week3-modmath-gcd/screenshoot/hasil.png
 
 ## 5. Source Code
-(Salin kode program utama yang dibuat atau dimodifikasi.  
-Gunakan blok kode:
-
-```python
-# contoh potongan kode
-def encrypt(text, key):
-    return ...
-```
-)
-
----
+<img width="868" height="980" alt="Screenshot 2025-10-27 150056" src="https://github.com/user-attachments/assets/80d472d5-11a6-4a51-b6e9-e049d300d3c7" />
 
 ## 6. Hasil dan Pembahasan
-(- Lampirkan screenshot hasil eksekusi program (taruh di folder `screenshots/`).  
-- Berikan tabel atau ringkasan hasil uji jika diperlukan.  
-- Jelaskan apakah hasil sesuai ekspektasi.  
-- Bahas error (jika ada) dan solusinya. 
-
-Hasil eksekusi program Caesar Cipher:
-
-![Hasil Eksekusi](screenshots/output.png)
-![Hasil Input](screenshots/input.png)
-![Hasil Output](screenshots/output.png)
-)
-
----
+<img width="332" height="442" alt="Screenshot 2025-10-27 150149" src="https://github.com/user-attachments/assets/60a01b6b-96be-4c11-87e1-19de758e4579" />
 
 ## 7. Jawaban Pertanyaan
 Soall
@@ -71,9 +52,7 @@ Invers modular sangat penting dalam algoritma RSA karena digunakan untuk membali
 Tantangan utama dalam menyelesaikan logaritma diskrit untuk modulus besar terletak pada tingkat kesulitannya yang sangat tinggi secara komputasional. Masalah logaritma diskrit berarti mencari nilai  pada persamaan , dan hingga saat ini belum ada algoritma yang efisien untuk menyelesaikannya ketika modulus  berukuran besar. Waktu yang dibutuhkan meningkat secara eksponensial terhadap ukuran modulus, sehingga metode seperti Baby-step Giant-step, Pollard’s Rho, maupun Number Field Sieve menjadi tidak praktis. Kesulitan inilah yang menjadi dasar keamanan dari algoritma kriptografi seperti Diffie–Hellman dan ElGamal.
 
 ## 8. Kesimpulan
-(Tuliskan kesimpulan singkat (2–3 kalimat) berdasarkan percobaan.  )
-
----
+Aritmetika Modular merupakan cabang matematika yang mempelajari operasi hitung dengan menggunakan sistem modulo, yaitu sistem bilangan yang mengandalkan sisa hasil bagi. Konsep ini sering dianalogikan dengan “matematika jam”, di mana setelah mencapai batas tertentu, angka akan kembali ke awal. Aritmetika modular melibatkan operasi penjumlahan, pengurangan, perkalian, hingga perpangkatan dengan hasil yang disesuaikan berdasarkan modulus tertentu. Tujuan utama mempelajari aritmetika modular adalah untuk menyelesaikan operasi matematika dalam ruang terbatas, yang sangat berguna dalam bidang ilmu komputer dan kriptografi modern, seperti dalam algoritma RSA dan Diffie-Hellman.
 
 ## 9. Daftar Pustaka
 (Cantumkan referensi yang digunakan.  
