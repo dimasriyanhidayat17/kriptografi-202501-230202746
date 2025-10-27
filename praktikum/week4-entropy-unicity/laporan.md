@@ -6,9 +6,11 @@ NIM: 230202746
 Kelas: 5IKRB 
 
 ## 1. Tujuan
-(Tuliskan tujuan pembelajaran praktikum sesuai modul.)
-
----
+1. Menyelesaikan perhitungan sederhana terkait entropi kunci.
+2. Menggunakan teorema Euler pada contoh perhitungan modular & invers.
+3. Menghitung unicity distance untuk ciphertext tertentu.
+4. Menganalisis kekuatan kunci berdasarkan entropi dan unicity distance.
+5. Mengevaluasi potensi serangan brute force pada kriptosistem sederhana.
 
 ## 2. Dasar Teori
 (Ringkas teori relevan (cukup 2–3 paragraf).  
