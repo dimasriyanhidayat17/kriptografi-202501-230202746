@@ -79,4 +79,4 @@ Contoh:
 
 ## 10. Commit Log
 Author: Safira Dewi Rahmatika <email> safiraa1026@gmail.com
-week3-entropy-unicity: implementasi dan laporan
+week3-entropy-unicity: laporan
