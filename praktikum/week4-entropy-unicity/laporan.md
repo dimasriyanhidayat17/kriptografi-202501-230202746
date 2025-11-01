@@ -12,27 +12,22 @@ Kelas: 5IKRB
 5. Mengevaluasi potensi serangan brute force pada kriptosistem sederhana.
 
 ## 2. Dasar Teori
-(Ringkas teori relevan (cukup 2–3 paragraf).  
-Contoh: definisi cipher klasik, konsep modular aritmetika, dll.  )
+Entropi kunci adalah ukuran tingkat ketidakpastian atau keacakan dari sebuah kunci dalam sistem kriptografi. Semakin tinggi nilai entropi, semakin sulit kunci tersebut ditebak atau diretas, karena kemungkinan kombinasi yang bisa digunakan semakin banyak. Entropi juga bisa diartikan sebagai seberapa kuat dan acak sebuah kunci yang digunakan dalam proses enkripsi.
 
----
+Teorema Euler digunakan dalam kriptografi untuk membantu melakukan perhitungan pada operasi matematika berbasis modulus, seperti mencari nilai invers atau hasil pangkat dalam sistem bilangan modular. Teorema ini menjadi dasar penting bagi algoritma kriptografi modern seperti RSA, karena menjelaskan hubungan antara bilangan yang saling relatif prima dengan modulus tertentu.
+
+Unicity distance atau jarak unisitas menunjukkan seberapa panjang sebuah ciphertext diperlukan agar hanya ada satu kunci yang mungkin digunakan untuk menghasilkan pesan asli yang bermakna. Konsep ini membantu menentukan kekuatan sebuah sistem kriptografi. Semakin besar nilai unicity distance, semakin sulit ciphertext dipecahkan. Analisis terhadap entropi kunci dan unicity distance juga berguna untuk menilai kemungkinan serangan brute force, yaitu upaya mencoba semua kunci secara acak hingga menemukan yang benar.
 
 ## 3. Alat dan Bahan
-(- Python 3.x  
+- Python 3.x  
 - Visual Studio Code / editor lain  
 - Git dan akun GitHub  
-- Library tambahan (misalnya pycryptodome, jika diperlukan)  )
-
----
 
 ## 4. Langkah Percobaan
-(Tuliskan langkah yang dilakukan sesuai instruksi.  
-Contoh format:
-1. Membuat file `caesar_cipher.py` di folder `praktikum/week2-cryptosystem/src/`.
+1. Merangkum materi terkait entropy unicity.
 2. Menyalin kode program dari panduan praktikum.
-3. Menjalankan program dengan perintah `python caesar_cipher.py`.)
-
----
+3. Menjalankan program.
+4. Menjawab pertanyaan atau quiz 
 
 ## 5. Source Code
 (Salin kode program utama yang dibuat atau dimodifikasi.  
