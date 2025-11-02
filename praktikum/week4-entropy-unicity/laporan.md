@@ -27,32 +27,11 @@ Unicity distance atau jarak unisitas menunjukkan seberapa panjang sebuah ciphert
 4. Menjawab pertanyaan atau quiz 
 
 ## 5. Source Code
-(Salin kode program utama yang dibuat atau dimodifikasi.  
-Gunakan blok kode:
-
-```python
-# contoh potongan kode
-def encrypt(text, key):
-    return ...
-```
-)
-
----
+<img width="1051" height="523" alt="Screenshot 2025-11-02 150955" src="https://github.com/user-attachments/assets/b2c73a55-8ad3-4390-ba77-2add69cb24dd" />
 
 ## 6. Hasil dan Pembahasan
-(- Lampirkan screenshot hasil eksekusi program (taruh di folder `screenshots/`).  
-- Berikan tabel atau ringkasan hasil uji jika diperlukan.  
-- Jelaskan apakah hasil sesuai ekspektasi.  
-- Bahas error (jika ada) dan solusinya. 
+<img width="693" height="255" alt="Screenshot 2025-11-02 151012" src="https://github.com/user-attachments/assets/358fdab6-9671-4d2e-8337-e98eb1aba23d" />
 
-Hasil eksekusi program Caesar Cipher:
-
-![Hasil Eksekusi](screenshots/output.png)
-![Hasil Input](screenshots/input.png)
-![Hasil Output](screenshots/output.png)
-)
-
----
 
 ## 7. Jawaban Pertanyaan
 soal.
