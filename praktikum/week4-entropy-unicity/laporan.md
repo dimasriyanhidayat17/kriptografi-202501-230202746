@@ -1,6 +1,6 @@
     # Laporan Praktikum Kriptografi
 Minggu ke-: 4  
-Topik: [judul praktikum]  
+Topik:  week4-entropy-unicity: Evaluasi Kekuatan Kunci dan Brute Force 
 Nama: Dimas Riyan Hidayat  
 NIM: 230202746  
 Kelas: 5IKRB 
@@ -64,5 +64,5 @@ commit abc12345
 Author: Dimas Riyan Hidayat <dimasriyanhidayat01@gmail.com>
 Date:   2025-11-1
 
-    week4-entropy-unicity: implementasi Caesar Cipher dan laporan )
+    week4-entropy-unicity: Evaluasi Kekuatan Kunci dan Brute Force
 ```
