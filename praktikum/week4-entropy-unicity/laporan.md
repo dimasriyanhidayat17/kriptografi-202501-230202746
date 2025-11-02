@@ -1,4 +1,4 @@
-# Laporan Praktikum Kriptografi
+    # Laporan Praktikum Kriptografi
 Minggu ke-: 4  
 Topik: [judul praktikum]  
 Nama: Dimas Riyan Hidayat  
@@ -40,11 +40,14 @@ Contoh format:
 
 
 ## 7. Jawaban Pertanyaan
-(Jawab pertanyaan diskusi yang diberikan pada modul.  
-- Pertanyaan 1: …  
-- Pertanyaan 2: …  
-)
----
+1. Nilai Entropy dalam Kekuatan Kunci
+Dalam konteks kekuatan kunci, nilai entropy menggambarkan tingkat keacakan atau ketidakpastian dari suatu kunci kriptografi. Semakin tinggi nilai entropi, semakin besar ruang kemungkinan kunci yang tersedia dan semakin sulit bagi penyerang untuk menebaknya melalui brute force. Entropy yang tinggi menunjukkan bahwa kunci sulit diprediksi dan memiliki keamanan yang lebih baik karena peluang untuk menebak kunci secara benar menjadi sangat kecil.
+
+2. Pentingnya Unicity Distance dalam Keamanan Cipher
+Unicity distance merupakan ukuran jumlah minimal ciphertext yang dibutuhkan agar kunci dapat ditentukan secara unik melalui analisis kriptografi. Nilai ini bergantung pada besarnya entropi kunci dan tingkat redundansi dalam plaintext. Jika jumlah ciphertext yang diperoleh lebih sedikit dari nilai unicity distance, maka kriptanalis tidak dapat memastikan kunci yang benar, sehingga cipher masih dianggap aman. Sebaliknya, jika ciphertext yang tersedia melebihi nilai tersebut, maka kemungkinan kunci dapat ditemukan secara pasti meningkat, dan keamanan cipher menjadi berkurang.
+
+3. Brute Force sebagai Ancaman Meski Algoritma Sudah Kuat
+Meskipun algoritma kriptografi modern seperti AES dan RSA memiliki dasar matematis yang sangat kuat, brute force tetap menjadi ancaman nyata. Ancaman ini muncul bukan karena kelemahan algoritmanya, tetapi karena faktor-faktor eksternal seperti penggunaan kunci yang lemah, kesalahan implementasi, kemajuan teknologi komputasi, serta pengelolaan kunci yang tidak aman. Dengan meningkatnya kemampuan perangkat keras seperti GPU dan komputer kuantum, waktu yang dibutuhkan untuk melakukan brute force dapat berkurang secara signifikan. Oleh karena itu, keamanan sistem kriptografi tidak hanya bergantung pada kekuatan algoritma, tetapi juga pada penerapan dan pengelolaan kunci yang benar.
 
 ## 8. Kesimpulan
 (Tuliskan kesimpulan singkat (2–3 kalimat) berdasarkan percobaan.  )
