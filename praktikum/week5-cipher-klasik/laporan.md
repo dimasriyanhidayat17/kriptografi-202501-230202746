@@ -1,5 +1,5 @@
 # Laporan Praktikum Kriptografi
-Minggu ke-: 5
+Minggu ke-: 5 
 Topik: cipher klasik  
 Nama: Safira Dewi Rahmatika 
 NIM: 230202784
