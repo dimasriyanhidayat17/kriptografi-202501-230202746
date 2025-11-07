@@ -5,9 +5,12 @@ Nama: Safira Dewi Rahmatika
 NIM: 230202784
 Kelas: 5IKRB 
 ## 1. Tujuan
-1. Entropi kunci.
-2. Unicity distance.
-3. Estimasi brute force attack.
+1. Menyelesaikan perhitungan sederhana terkait entropi kunci.
+2. Menggunakan teorema Euler pada contoh perhitungan modular & invers.
+3. Menghitung unicity distance untuk ciphertext tertentu.
+4. Menganalisis kekuatan kunci berdasarkan entropi dan unicity distance.
+5. Mengevaluasi potensi serangan brute force pada kriptosistem sederhana.
+
 ## 2. Dasar Teori
 Entropi kunci adalah ukuran tingkat ketidakpastian atau keacakan dari sebuah kunci dalam sistem kriptografi. Semakin tinggi nilai entropi, semakin sulit kunci tersebut ditebak atau diretas, karena kemungkinan kombinasi yang bisa digunakan semakin banyak. Entropi juga bisa diartikan sebagai seberapa kuat dan acak sebuah kunci yang digunakan dalam proses enkripsi.
 
@@ -46,13 +49,8 @@ Jawaban.
 
 3. Brute force masih menjadi ancaman meskipun algoritma kriptografi modern sangat kuat, karena metode ini tidak bergantung pada kelemahan algoritma, melainkan mencoba semua kemungkinan kunci hingga menemukan yang benar. Dengan meningkatnya kemampuan komputasi dan munculnya teknologi baru seperti komputasi paralel dan komputer kuantum, waktu yang dibutuhkan untuk melakukan brute force bisa semakin singkat. Oleh karena itu, meskipun algoritma sudah kuat, penggunaan panjang kunci yang memadai tetap penting agar brute force tetap tidak praktis untuk dilakukan.
 
-
-
-
 ## 8. Kesimpulan
-(Tuliskan kesimpulan singkat (2–3 kalimat) berdasarkan percobaan.  )
-
----
+Berdasarkan data output tersebut, terlihat perbedaan keamanan yang sangat signifikan antara algoritma klasik dan modern. Caesar Cipher, dengan entropi ruang kunci 26 yang hanya ~4.7 bit, dapat dipecahkan melalui brute force dalam waktu yang hampir seketika, yaitu 3.009e-10 hari. Sebaliknya, standar enkripsi modern seperti AES-128 menawarkan tingkat keamanan yang jauh berbeda; dengan entropi 128 bit, waktu yang dibutuhkan untuk serangan brute force diperkirakan mencapai 3.938e+27 hari. Perbandingan ini secara jelas mengilustrasikan mengapa enkripsi sederhana seperti Caesar Cipher sama sekali tidak aman untuk data sensitif, sementara AES-128 dianggap aman secara komputasi.
 
 ## 9. Daftar Pustaka
 (Cantumkan referensi yang digunakan.  
