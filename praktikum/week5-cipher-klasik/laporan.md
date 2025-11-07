@@ -29,8 +29,10 @@ Secara umum, algoritma kriptografi klasik seperti Caesar, Vigenère, dan transpo
 3. Menjalan semua kode program
 5. Menaruh hasil eksekusi dari program ke dalam folder screenshoot/
 ## 5. Source Code
+<img width="703" height="507" alt="Screenshot 2025-11-07 205852" src="https://github.com/user-attachments/assets/908dc0cd-ad36-4fa5-b0ce-be1482f6b8e9" />
 
 ## 6. Hasil dan Pembahasan
+<img width="448" height="106" alt="Screenshot 2025-11-07 205925" src="https://github.com/user-attachments/assets/897cd325-253a-4171-aa58-59b08ad7afaf" />
 
 ## 7. Jawaban Pertanyaan
 Soal 
