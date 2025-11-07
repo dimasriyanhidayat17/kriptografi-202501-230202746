@@ -19,15 +19,15 @@ Transposisi sederhana, seperti columnar transposition, mengatur ulang urutan hur
 Secara umum, algoritma kriptografi klasik seperti Caesar, Vigenère, dan transposisi memiliki kelemahan utama berupa kerentanan terhadap analisis frekuensi, brute force, dan serangan komputasional karena tidak memiliki keamanan matematis yang kuat, sehingga mudah dipecahkan dengan alat modern dan telah digantikan oleh cipher seperti AES atau RSA untuk aplikasi keamanan yang se
 
 ## 3. Alat dan Bahan
-- Python 3.x  
+- Python 3.12
 - Visual Studio Code 
 - Git dan akun GitHub  
 
 ## 4. Langkah Percobaan
-1. Membuat file `cipher_klasik.py` di folder `praktikum/week5-cipher_klasik/`.
+1. Membuat file caesar.py di folder praktikum/week5-cipher-klasik/src/caesar.py.
 2. Menyalin kode program dari panduan praktikum.
-3. Menjalankan program dengan perintah `python caesar_cipher.py`.)
-
+3. Menjalan semua kode program
+5. Menaruh hasil eksekusi dari program ke dalam folder screenshoot/
 ## 5. Source Code
 
 
@@ -62,4 +62,5 @@ commit abc12345
 Author: safira dewi rahmatika safiraa1026@gmail.com
 Date:   2025-11-07
 
-    week5- implementasi Caesar Cipher Klasik dan laporan
+    week5- implementasi Caesar Cipher Klasik dan laporan (Vigenère, Substitusi, transposisi).
+
