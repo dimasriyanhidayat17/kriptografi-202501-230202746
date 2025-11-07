@@ -6,9 +6,10 @@ NIM: 230202784
 Kelas: 5IKRB
 
 ## 1. Tujuan
-(Tuliskan tujuan pembelajaran praktikum sesuai modul.)
-
----
+1. Menerapkan algoritma Caesar Cipher untuk enkripsi dan dekripsi teks.
+2. Menerapkan algoritma Vigenère Cipher dengan variasi kunci.
+3. Mengimplementasikan algoritma transposisi sederhana.
+5. Menjelaskan kelemahan algoritma kriptografi klasik.
 
 ## 2. Dasar Teori
 (Ringkas teori relevan (cukup 2–3 paragraf).  
