@@ -38,6 +38,7 @@ Soal
 1. Apa kelemahan utama algoritma Caesar Cipher dan Vigenère Cipher?
 2. Mengapa cipher klasik mudah diserang dengan analisis frekuensi?
 3. Bandingkan kelebihan dan kelemahan cipher substitusi vs transposisi.
+
 Jawaban
 1. Kelemahan Utama Caesar Cipher dan Vigenère Cipher
 Caesar Cipher sangat lemah karena hanya bergantung pada pergeseran alfabet sederhana, sehingga mudah dipecahkan dengan brute force (hanya 25 kemungkinan kunci) dan analisis frekuensi, di mana pola huruf seperti 'e' yang sering muncul tetap terlihat. Vigenère Cipher lebih kuat dengan shift variabel berdasarkan kata kunci, tetapi rentan terhadap teknik Kasiski untuk menentukan panjang kunci dan analisis frekuensi pada setiap posisi shift, terutama jika kunci pendek atau dapat ditebak.
