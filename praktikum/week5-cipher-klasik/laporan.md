@@ -61,5 +61,5 @@ commit abc12345
 Author: safira dewi rahmatika safiraa1026@gmail.com
 Date:   2025-11-07
 
-    week5- implementasi Caesar Cipher Klasik dan laporan (Vigenère, Substitusi, transposisi).
+    week5- implementasi Caesar Cipher Klasik dan laporan (Caesar, Vigenère, transposisi).
 
