@@ -23,7 +23,7 @@ Contoh: definisi cipher klasik, konsep modular aritmetika, dll.  )
 - Git dan akun GitHub  
 
 ## 4. Langkah Percobaan
-1. Membuat file `caesar_cipher.py` di folder `praktikum/week2-cryptosystem/src/`.
+1. Membuat file `caesar_cipher_klasik.py` di folder `praktikum/week5-cryptosystem/src/`.
 2. Menyalin kode program dari panduan praktikum.
 3. Menjalankan program dengan perintah `python caesar_cipher.py`.)
 
