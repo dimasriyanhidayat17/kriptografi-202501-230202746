@@ -40,10 +40,15 @@ Transposisi
 
 ## 6. Hasil dan Pembahasan
 Cesar Chiper
+
 <img width="448" height="106" alt="Screenshot 2025-11-07 205925" src="https://github.com/user-attachments/assets/897cd325-253a-4171-aa58-59b08ad7afaf" />
+
 Vigenere Chiper
+
 <img width="484" height="195" alt="Screenshot 2025-11-09 115906" src="https://github.com/user-attachments/assets/4f7f5a53-e36e-42fd-ba34-ebe61475a24a" />
+
 Transposisi
+
 <img width="488" height="192" alt="Screenshot 2025-11-09 120013" src="https://github.com/user-attachments/assets/c8c4d3b3-a065-4457-a4d2-6d0df7c64802" />
 
 
