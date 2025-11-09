@@ -1,9 +1,9 @@
 # Laporan Praktikum Kriptografi
-Minggu ke-: X  
-Topik: [judul praktikum]  
-Nama: [Nama Mahasiswa]  
-NIM: [NIM Mahasiswa]  
-Kelas: [Kelas]  
+Minggu ke-: V  
+Topik: Chiper Klasik  
+Nama: Dimas Riyan Hidayat  
+NIM: 230202746 
+Kelas: 5IKRB 
 
 ---
 
@@ -19,10 +19,9 @@ Contoh: definisi cipher klasik, konsep modular aritmetika, dll.  )
 ---
 
 ## 3. Alat dan Bahan
-(- Python 3.x  
-- Visual Studio Code / editor lain  
+- Python 3.11
+- Visual Studio Code 
 - Git dan akun GitHub  
-- Library tambahan (misalnya pycryptodome, jika diperlukan)  )
 
 ---
 
@@ -36,32 +35,10 @@ Contoh format:
 ---
 
 ## 5. Source Code
-(Salin kode program utama yang dibuat atau dimodifikasi.  
-Gunakan blok kode:
 
-```python
-# contoh potongan kode
-def encrypt(text, key):
-    return ...
-```
-)
-
----
 
 ## 6. Hasil dan Pembahasan
-(- Lampirkan screenshot hasil eksekusi program (taruh di folder `screenshots/`).  
-- Berikan tabel atau ringkasan hasil uji jika diperlukan.  
-- Jelaskan apakah hasil sesuai ekspektasi.  
-- Bahas error (jika ada) dan solusinya. 
 
-Hasil eksekusi program Caesar Cipher:
-
-![Hasil Eksekusi](screenshots/output.png)
-![Hasil Input](screenshots/input.png)
-![Hasil Output](screenshots/output.png)
-)
-
----
 
 ## 7. Jawaban Pertanyaan
 (Jawab pertanyaan diskusi yang diberikan pada modul.  
@@ -76,20 +53,12 @@ Hasil eksekusi program Caesar Cipher:
 ---
 
 ## 9. Daftar Pustaka
-(Cantumkan referensi yang digunakan.  
-Contoh:  
-- Katz, J., & Lindell, Y. *Introduction to Modern Cryptography*.  
-- Stallings, W. *Cryptography and Network Security*.  )
-
----
 
 ## 10. Commit Log
-(Tuliskan bukti commit Git yang relevan.  
-Contoh:
 ```
 commit abc12345
-Author: Nama Mahasiswa <email>
-Date:   2025-09-20
+Author: Dimas Riyan Hidayat <dimasriyanhidayat01@gmail.com>
+Date:   2025-11-09
 
-    week2-cryptosystem: implementasi Caesar Cipher dan laporan )
+    week5-Ciper Klasik:
 ```
