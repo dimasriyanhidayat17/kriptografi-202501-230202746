@@ -1,6 +1,6 @@
 # Laporan Praktikum Kriptografi
 Minggu ke-: V  
-Topik: Chiper Klasik  
+Topik: Chiper Klasik (Caesar, Vigenère, Transposisi)
 Nama: Dimas Riyan Hidayat  
 NIM: 230202746 
 Kelas: 5IKRB 
@@ -92,5 +92,5 @@ commit abc12345
 Author: Dimas Riyan Hidayat <dimasriyanhidayat01@gmail.com>
 Date:   2025-11-09
 
-    week5-Ciper Klasik:
+    week5-Ciper Klasik:(Caesar, Vigenère, Transposisi)
 ```
