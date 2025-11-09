@@ -73,6 +73,7 @@ Cipher klasik seperti substitusi monoalfabetik mudah diserang analisis frekuensi
 Cipher substitusi, yang mengganti huruf dengan huruf lain, mudah diimplementasikan secara manual dan mempertahankan struktur serta panjang teks, tetapi sangat rentan terhadap analisis frekuensi karena frekuensi huruf tidak berubah. Sebaliknya, cipher transposisi, yang mengatur ulang urutan huruf tanpa mengubahnya, lebih tahan analisis frekuensi karena hanya mengubah posisi, namun lebih kompleks untuk diimplementasikan dan rentan terhadap brute force atau analisis pola jika kunci dapat ditebak.
 
 ## 8. Kesimpulan
+Cipher klasik seperti Caesar Cipher dan Vigenère Cipher pada dasarnya memiliki kelemahan mendasar karena masih mempertahankan pola bahasa asli dalam bentuk frekuensi huruf maupun struktur teks. Hal ini membuatnya mudah dibongkar menggunakan analisis frekuensi dan teknik kriptanalisis sederhana lainnya. Meskipun cipher substitusi dan transposisi menjadi fondasi perkembangan kriptografi, keduanya tidak mampu menyembunyikan karakteristik statistik bahasa secara sempurna sehingga tidak memberikan tingkat keamanan yang memadai untuk penggunaan modern. Oleh karena itu, cipher klasik hanya efektif sebagai pembelajaran dasar kriptografi dan tidak lagi sesuai untuk melindungi data sensitif di era komputasi saat ini.
 
 ## 9. Daftar Pustaka
 (Cantumkan referensi yang digunakan.  
