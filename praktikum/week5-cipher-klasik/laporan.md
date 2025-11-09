@@ -29,10 +29,24 @@ Secara umum, algoritma kriptografi klasik seperti Caesar, Vigenère, dan transpo
 3. Menjalan semua kode program
 5. Menaruh hasil eksekusi dari program ke dalam folder screenshoot/
 ## 5. Source Code
+Cesar Chiper
 <img width="703" height="507" alt="Screenshot 2025-11-07 205852" src="https://github.com/user-attachments/assets/908dc0cd-ad36-4fa5-b0ce-be1482f6b8e9" />
+Vigenere Chiper
+<img width="845" height="936" alt="Screenshot 2025-11-09 115831" src="https://github.com/user-attachments/assets/0476ef88-504b-4ef7-ae76-040f3e71d6ce" />
+Transposisi
+<img width="1097" height="792" alt="Screenshot 2025-11-09 115950" src="https://github.com/user-attachments/assets/92d72943-4175-4f2a-a772-fd684995bfea" />
+
+
 
 ## 6. Hasil dan Pembahasan
+Cesar Chiper
 <img width="448" height="106" alt="Screenshot 2025-11-07 205925" src="https://github.com/user-attachments/assets/897cd325-253a-4171-aa58-59b08ad7afaf" />
+Vigenere Chiper
+<img width="484" height="195" alt="Screenshot 2025-11-09 115906" src="https://github.com/user-attachments/assets/4f7f5a53-e36e-42fd-ba34-ebe61475a24a" />
+Transposisi
+<img width="488" height="192" alt="Screenshot 2025-11-09 120013" src="https://github.com/user-attachments/assets/c8c4d3b3-a065-4457-a4d2-6d0df7c64802" />
+
+
 
 ## 7. Jawaban Pertanyaan
 Soal 
