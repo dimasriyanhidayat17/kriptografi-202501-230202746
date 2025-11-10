@@ -8,9 +8,9 @@ Kelas: 5IKRB
 ---
 
 ## 1. Tujuan
-(Tuliskan tujuan pembelajaran praktikum sesuai modul.)
-
----
+1. Mengimplementasikan algoritma DES untuk blok data sederhana.
+2. Menerapkan algoritma AES dengan panjang kunci 128 bit.
+3. Menjelaskan proses pembangkitan kunci publik dan privat pada algoritma RSA.
 
 ## 2. Dasar Teori
 (Ringkas teori relevan (cukup 2–3 paragraf).  
