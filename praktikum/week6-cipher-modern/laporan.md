@@ -13,11 +13,11 @@ Kelas: 5IKRB
 3. Menjelaskan proses pembangkitan kunci publik dan privat pada algoritma RSA.
 
 ## 2. Dasar Teori
-(Ringkas teori relevan (cukup 2–3 paragraf).  
-Contoh: definisi cipher klasik, konsep modular aritmetika, dll.  )
+Kriptografi modern terbagi menjadi dua kategori utama, yaitu kriptografi simetris dan asimetris. Algoritma simetris seperti DES dan AES menggunakan satu kunci yang sama untuk proses enkripsi dan dekripsi, sehingga efisien untuk pengolahan data dalam jumlah besar. DES merupakan algoritma blok simetris berbasis struktur Feistel dengan panjang kunci 56 bit, namun kelemahannya pada ukuran kunci yang kecil membuatnya rentan terhadap brute force. Sebagai penerusnya, AES dikembangkan dengan panjang kunci 128, 192, dan 256 bit serta struktur Substitution–Permutation Network (SPN) yang lebih aman dan efisien, sehingga menjadi standar internasional dan menggantikan DES dalam berbagai aplikasi keamanan modern.
 
----
+Berbeda dari DES dan AES, RSA adalah algoritma kriptografi asimetris yang menggunakan sepasang kunci berbeda, yaitu kunci publik untuk enkripsi dan kunci privat untuk dekripsi. Keamanan RSA bergantung pada kesulitan memfaktorkan bilangan komposit besar, sehingga proses pembangkitan kuncinya melibatkan pemilihan dua bilangan prima besar, perhitungan nilai modulus n, totient Eule 𝜑(𝑛)φ(n), serta penentuan eksponen publik dan privat. Penggunaan dua kunci yang berbeda memungkinkan RSA menyelesaikan masalah distribusi kunci, menjadikannya sangat penting untuk pertukaran kunci dan tanda tangan digital.
 
+Secara keseluruhan, perbedaan mendasar antara DES, AES, dan RSA terletak pada jenis kunci serta tingkat keamanannya. AES lebih unggul dibanding DES karena panjang kunci yang jauh lebih besar, tingkat keamanan yang lebih tinggi, dan performa yang lebih baik. RSA, meskipun tidak efisien untuk enkripsi data dalam jumlah besar, memainkan peran penting dalam komunikasi aman karena kemampuannya menyediakan mekanisme autentikasi dan distribusi kunci yang tidak dapat dilakukan oleh algoritma simetris.
 ## 3. Alat dan Bahan
 - Python 3.11
 - Visual Studio Code 
@@ -43,22 +43,30 @@ Contoh format:
 ---
 
 ## 7. Jawaban Pertanyaan
-(Jawab pertanyaan diskusi yang diberikan pada modul.  
-- Pertanyaan 1: …  
-- Pertanyaan 2: …  
-)
----
+1. Perbedaan mendasar antara DES, AES, dan RSA dalam hal kunci dan keamanan
+
+DES, AES, dan RSA menunjukkan perbedaan mendasar baik dari jenis kunci yang digunakan maupun tingkat keamanannya. DES dan AES termasuk dalam kategori algoritma kriptografi simetris, di mana proses enkripsi dan dekripsi menggunakan kunci yang sama. DES memiliki panjang kunci efektif sebesar 56 bit sehingga rentan terhadap serangan brute force pada sistem komputasi modern. Sebaliknya, AES menawarkan panjang kunci 128, 192, dan 256 bit serta menggunakan struktur desain yang lebih efisien dan aman, sehingga menjadi standar enkripsi yang lebih kuat dan relevan. RSA berbeda secara fundamental karena merupakan algoritma asimetris yang menggunakan sepasang kunci, yaitu kunci publik dan kunci privat. Keamanan RSA tidak bergantung pada panjang blok data, tetapi pada tingkat kesulitan matematis dalam memfaktorkan bilangan komposit besar menjadi faktor-faktor primanya. Dengan demikian, kunci RSA umumnya memiliki panjang yang jauh lebih besar, mulai dari 1024 hingga 4096 bit, guna memastikan tingkat keamanan yang memadai.
+
+2. Mengapa AES lebih banyak digunakan dibanding DES di era modern?
+
+AES lebih banyak digunakan dibanding DES pada era modern karena tingkat keamanan yang ditawarkannya jauh lebih tinggi. Panjang kunci DES yang terbatas hanya 56 bit memungkinkan algoritma tersebut dipecahkan dalam waktu yang relatif singkat menggunakan teknologi komputasi saat ini, sehingga tidak lagi memenuhi standar keamanan kontemporer. AES tidak hanya memiliki panjang kunci yang lebih besar, tetapi juga dirancang untuk memberikan performa yang optimal pada perangkat lunak dan perangkat keras. Selain itu, AES telah ditetapkan oleh National Institute of Standards and Technology (NIST) sebagai standar enkripsi internasional, dan digunakan secara luas pada berbagai sistem keamanan seperti jaringan nirkabel, VPN, serta protokol komunikasi Internet. Kombinasi antara keamanan yang kuat, efisiensi tinggi, dan standarisasi global menjadikan AES lebih unggul dan menggantikan DES sebagai pilihan utama.
+
+3. Mengapa RSA dikategorikan sebagai algoritma asimetris, dan bagaimana proses pembangkitan kuncinya?
+
+RSA dikategorikan sebagai algoritma asimetris karena menggunakan dua kunci yang berbeda dalam proses enkripsi dan dekripsi, yaitu kunci publik yang dapat didistribusikan secara terbuka dan kunci privat yang harus dijaga kerahasiaannya. Model penggunaan dua kunci ini didasarkan pada prinsip matematis bahwa mengetahui kunci publik tidak memungkinkan pihak lain untuk memperoleh kunci privat secara praktis. Keamanan RSA bergantung pada permasalahan faktorisasi bilangan komposit besar, yang hingga kini dianggap sulit diselesaikan secara efisien. Proses pembangkitan kunci RSA dimulai dengan memilih dua bilangan prima besar, p dan q, kemudian menghitung nilai modulus 𝑛=𝑝×𝑞. Selanjutnya dihitung fungsi totient Euler, 𝜑(𝑛)=(𝑝−1)(𝑞−1)φ(n)=(p−1)(q−1), yang digunakan untuk menentukan eksponen publik e yang relatif prima terhadap 𝜑(𝑛)φ(n). Setelah itu dihitung eksponen privat d, yaitu invers modulo dari 𝑒e terhadap 𝜑(𝑛)φ(n). Hasil akhir proses ini menghasilkan kunci publik (𝑒,𝑛)(e,n) dan kunci privat (𝑑,𝑛)
+(d,n), yang masing-masing digunakan sesuai perannya dalam enkripsi, dekripsi, maupun penandatanganan digital.
 
 ## 8. Kesimpulan
+DES, AES, dan RSA memiliki perbedaan mendasar dalam mekanisme kerja dan tingkat keamanannya. DES dan AES merupakan algoritma simetris, namun DES tidak lagi dianggap aman karena panjang kuncinya yang sangat terbatas, sementara AES menawarkan keamanan yang tinggi dan efisiensi sehingga menjadi standar enkripsi modern. Di sisi lain, RSA merupakan algoritma asimetris yang menggunakan sepasang kunci berbeda dan mengandalkan kesulitan faktorisasi bilangan besar, sehingga sangat efektif untuk proses autentikasi dan pertukaran kunci.
 
----
+Secara umum, AES lebih banyak digunakan untuk enkripsi data karena kecepatan dan kekuatannya, sedangkan RSA digunakan untuk fungsi yang tidak dapat dilakukan algoritma simetris, seperti distribusi kunci dan tanda tangan digital. Kombinasi kedua jenis algoritma ini sering digunakan dalam sistem keamanan modern untuk mencapai keseimbangan antara keamanan yang kuat dan efisiensi operasional.
 
 ## 9. Daftar Pustaka
 
 ## 10. Commit Log
 ```
 commit abc12345
-Author: Nama Mahasiswa <email>
+Author: Dimas Riyan Hidayat <dimasriyanhidayat01@gmail.com>
 Date:   2025-09-20
 
     week6-Chiper-Modern:  )
