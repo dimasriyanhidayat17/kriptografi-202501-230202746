@@ -35,12 +35,33 @@ Contoh format:
 ---
 
 ## 5. Source Code
+1. Implementasi DES
+   
+<img width="611" height="436" alt="Screenshot 2025-11-11 114555" src="https://github.com/user-attachments/assets/4208b4aa-a843-473c-8376-3969f4ac355e" />
+
+2. Implementasi AES
+
+<img width="687" height="437" alt="Screenshot 2025-11-11 114649" src="https://github.com/user-attachments/assets/c9aed329-62ca-499f-a4b5-1dcae0e99fa6" />
+
+3. Implementasi RSA
+
+<img width="565" height="535" alt="Screenshot 2025-11-11 114740" src="https://github.com/user-attachments/assets/cde86b40-5ded-4fb5-a1be-97a60597a4c2" />
 
 ---
 
 ## 6. Hasil dan Pembahasan
+1. Implementasi DES
 
----
+<img width="503" height="192" alt="Screenshot 2025-11-11 114622" src="https://github.com/user-attachments/assets/fa1254b7-86f0-4755-890e-3881d639e5b2" />
+
+2. Implementasi AES
+
+<img width="823" height="199" alt="Screenshot 2025-11-11 114718" src="https://github.com/user-attachments/assets/38d79985-7c56-4951-8e5d-ea603e1fbc96" />
+
+3. Implementasi RSA
+
+<img width="1316" height="369" alt="Screenshot 2025-11-11 114804" src="https://github.com/user-attachments/assets/e175da6f-312c-4792-93f6-8d2cbd090423" />
+
 
 ## 7. Jawaban Pertanyaan
 1. Perbedaan mendasar antara DES, AES, dan RSA dalam hal kunci dan keamanan
