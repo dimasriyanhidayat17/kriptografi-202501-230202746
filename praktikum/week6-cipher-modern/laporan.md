@@ -86,7 +86,7 @@ Secara umum, AES lebih banyak digunakan untuk enkripsi data karena kecepatan dan
 
 ## 10. Commit Log
 ```
-commit abc12345
+week6-cipher-modern
 Author: Dimas Riyan Hidayat <dimasriyanhidayat01@gmail.com>
 Date:   2025-09-20
 
