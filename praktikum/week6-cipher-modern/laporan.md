@@ -91,19 +91,11 @@ decrypted = decipher.decrypt(ciphertext)
 print("Decrypted:", decrypted)
 
 ## 6. Hasil dan Pembahasan
-(- Lampirkan screenshot hasil eksekusi program (taruh di folder `screenshots/`).  
-- Berikan tabel atau ringkasan hasil uji jika diperlukan.  
-- Jelaskan apakah hasil sesuai ekspektasi.  
-- Bahas error (jika ada) dan solusinya. 
 
-Hasil eksekusi program Caesar Cipher:
+![WhatsApp Image 2025-11-17 at 14 07 55 (2)](https://github.com/user-attachments/assets/e2c7ed54-6dad-4fb1-9e3f-9ee5131136da)
+![WhatsApp Image 2025-11-17 at 14 07 55](https://github.com/user-attachments/assets/5ef69602-07ae-4903-88df-afd2c2081fed)
+![WhatsApp Image 2025-11-17 at 14 07 55 (1)](https://github.com/user-attachments/assets/75479d82-754b-4872-8f81-a3abdef9ec65)
 
-![Hasil Eksekusi](screenshots/output.png)
-![Hasil Input](screenshots/input.png)
-![Hasil Output](screenshots/output.png)
-)
-
----
 
 ## 7. Jawaban Pertanyaan
 1. Perbedaan mendasar antara DES, AES, dan RSA dalam hal kunci dan keamanan DES dan AES termasuk dalam algoritma simetris, di mana proses enkripsi dan dekripsi menggunakan kunci yang sama, sedangkan RSA adalah asimetris karena menggunakan dua kunci berbeda, yaitu public key dan private key. Dari sisi keamanan, DES kini dianggap lemah karena hanya memiliki panjang kunci 56 bit yang mudah ditembus oleh serangan brute force. AES lebih kuat dengan panjang kunci hingga 256 bit dan struktur enkripsi yang kompleks, sementara RSA mengandalkan konsep matematika faktorisasi bilangan prima besar, sehingga menawarkan keamanan tinggi meski dengan kecepatan pemrosesan yang lebih lambat.
