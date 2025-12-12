@@ -28,7 +28,6 @@ PKI pada dasarnya adalah mesin kepercayaan yang dibangun di atas kriptografi kun
 ## 5. Source Code
 <img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/be09d1ef-a3c0-4f3d-aa1e-0f69c2251766" />
 
-
 ## 6. Hasil dan Pembahasan
 <img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/516aa8ba-706c-409d-a520-6c97cdcf915b" />
 2. A. Gunakan public key untuk memverifikasi tanda tangan sertifikat
