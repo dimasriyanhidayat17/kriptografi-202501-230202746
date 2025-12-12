@@ -57,6 +57,6 @@ Tanda tangan digital merupakan mekanisme penting dalam keamanan informasi modern
 
 ## 10. Commit Log
 commit week9-digital-signature
-Author: Dimas Riyan Hidayat <email>
+Author: Dimas Riyan Hidayat <dimasriyanhidayat01@gmail.com>
 Date:   2025-12-12
 
