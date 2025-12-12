@@ -26,9 +26,11 @@ Namun protokol Diffie-Hellman memiliki beberapa potensi kerentanan. Serangan pal
 3. Menjalankan program dengan perintah python diffie_hellman.py.
 
 ## 5. Source Code
+<img width="1478" height="933" alt="image" src="https://github.com/user-attachments/assets/b88ec82f-1ef0-4ffe-9737-5d67dacf3460" />
 
 
 ## 6. Hasil dan Pembahasan
+<img width="737" height="679" alt="image" src="https://github.com/user-attachments/assets/cddc2b2b-0006-4790-bcf4-93fc4941a526" />
 
 
 ## 7. Jawaban Pertanyaan
