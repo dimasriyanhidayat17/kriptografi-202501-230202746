@@ -30,6 +30,8 @@ PKI pada dasarnya adalah mesin kepercayaan yang dibangun di atas kriptografi kun
 
 ## 6. Hasil dan Pembahasan
 <img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/516aa8ba-706c-409d-a520-6c97cdcf915b" />
+<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/c57f0990-c59c-49a1-8d52-d98e6504477b" />
+
 2. A. Gunakan public key untuk memverifikasi tanda tangan sertifikat
 
 Tanda tangan digital pada sertifikat X.509 dibuat menggunakan private key milik penerbit sertifikat, biasanya sebuah Certificate Authority (CA) atau self-signed certificate pada sistem sederhana. Untuk memastikan bahwa sertifikat tersebut asli dan tidak dimodifikasi, verifikasi dilakukan menggunakan public key dari penerbit. Prosesnya melibatkan pengecekan apakah tanda tangan digital cocok dengan data sertifikat yang belum ditandatangani (TBS certificate). Jika verifikasi menggunakan public key berhasil, berarti tanda tangan valid dan sertifikat tidak mengalami perubahan. Jika gagal, sertifikat dianggap tidak sah atau telah dimodifikasi. Dengan cara ini, public key penerbit berfungsi sebagai alat pembuktian integritas dan keaslian sertifikat.
