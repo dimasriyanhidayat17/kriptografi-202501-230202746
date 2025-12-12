@@ -40,6 +40,7 @@ Contoh format:
 
 ## 6. Hasil dan Pembahasan
 <img width="1607" height="704" alt="Screenshot 2025-12-12 222700" src="https://github.com/user-attachments/assets/55025446-4d8b-470e-91e3-2dd2a1f64bf3" />
+<img width="1919" height="1021" alt="image" src="https://github.com/user-attachments/assets/12f840a6-2095-49a9-aaa5-cbed2f5420cb" />
 
 
 ## 7. Jawaban Pertanyaan
