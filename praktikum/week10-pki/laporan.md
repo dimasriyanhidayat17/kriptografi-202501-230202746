@@ -36,32 +36,11 @@ Contoh format:
 ---
 
 ## 5. Source Code
-(Salin kode program utama yang dibuat atau dimodifikasi.  
-Gunakan blok kode:
-
-```python
-# contoh potongan kode
-def encrypt(text, key):
-    return ...
-```
-)
-
----
+<img width="1621" height="934" alt="Screenshot 2025-12-12 222639" src="https://github.com/user-attachments/assets/ce1bba1c-d7ee-4182-8ca6-0604fb189f7a" />
 
 ## 6. Hasil dan Pembahasan
-(- Lampirkan screenshot hasil eksekusi program (taruh di folder `screenshots/`).  
-- Berikan tabel atau ringkasan hasil uji jika diperlukan.  
-- Jelaskan apakah hasil sesuai ekspektasi.  
-- Bahas error (jika ada) dan solusinya. 
+<img width="1607" height="704" alt="Screenshot 2025-12-12 222700" src="https://github.com/user-attachments/assets/55025446-4d8b-470e-91e3-2dd2a1f64bf3" />
 
-Hasil eksekusi program Caesar Cipher:
-
-![Hasil Eksekusi](screenshots/output.png)
-![Hasil Input](screenshots/input.png)
-![Hasil Output](screenshots/output.png)
-)
-
----
 
 ## 7. Jawaban Pertanyaan
 (Jawab pertanyaan diskusi yang diberikan pada modul.  
