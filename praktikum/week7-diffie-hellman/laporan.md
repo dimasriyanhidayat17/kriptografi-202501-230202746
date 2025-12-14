@@ -49,7 +49,9 @@ Authenticated Diffie-Hellman seperti Station-to-Station (STS) atau Elliptic Curv
 Dengan autentikasi, penyerang tidak bisa lagi menyamar sebagai salah satu pihak dalam komunikasi.
 
 ## 8. Kesimpulan
+Berdasarkan praktikum yang telah dilakukan, dapat disimpulkan bahwa protokol Diffie-Hellman memungkinkan dua pihak untuk membentuk kunci rahasia bersama melalui saluran publik tanpa perlu mengirimkan kunci tersebut secara langsung. Keamanan mekanisme ini bergantung pada sulitnya memecahkan masalah logaritma diskrit, sehingga meskipun nilai publik dapat diketahui pihak lain, kunci rahasia tetap terlindungi.
 
+Namun demikian, Diffie-Hellman murni memiliki kelemahan utama pada aspek autentikasi, sehingga rentan terhadap serangan Man-in-the-Middle (MITM) apabila tidak dilengkapi mekanisme tambahan. Oleh karena itu, dalam penerapan nyata, protokol Diffie-Hellman harus dikombinasikan dengan sistem autentikasi seperti tanda tangan digital, sertifikat digital, atau varian authenticated Diffie-Hellman agar pertukaran kunci dapat berlangsung secara aman dan terpercaya.
 
 ## 9. Daftar Pustaka
 (Cantumkan referensi yang digunakan.  
