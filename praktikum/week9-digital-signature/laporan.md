@@ -57,5 +57,5 @@ RSA memiliki dua peran utama dalam kriptografi kunci publik, yaitu enkripsi untu
 
 ## 10. Commit Log
 commit week9-digital-signature
-Author: Safira Dewi Rahmatika <email>
+Author: Safira Dewi Rahmatika <Safiraa1026@gmail.com>
 Date:   2025-12-14
