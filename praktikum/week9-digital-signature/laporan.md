@@ -19,11 +19,10 @@ Untuk menjamin kepercayaan terhadap kunci publik yang digunakan dalam verifikasi
 
 ## 3. Alat dan Bahan
 - Python 3.11
-- Visual Studio Code / editor lain  
-- Git dan akun GitHub  
-- Library tambahan (pycryptodome)
-  
-## 4. Langkah Percobaan
+- Visual Studio Code   
+- Git dan akun GitHub
+
+# 4. Langkah Percobaan
 1. Membuat file `digital signature.py` di folder `praktikum/week9-Digital Signature/src/`.
 2. Menyalin kode program dari panduan praktikum.
 3. Menjalankan program dengan perintah `python digital signature.py`.
