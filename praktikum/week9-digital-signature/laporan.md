@@ -1,5 +1,5 @@
 # Laporan Praktikum Kriptografi
-Minggu ke-: IX  
+Minggu ke-: 9
 Topik: Digital Signature  
 Nama: Safira Dewi Rahmatika 
 NIM: 230202784 
