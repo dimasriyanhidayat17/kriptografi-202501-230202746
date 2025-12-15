@@ -155,9 +155,9 @@ Verifikasi gagal: tanda tangan tidak cocok dengan pesan.
 
 ---
 
-## 6. Hasil dan Pembahasan
+## 6.hasil dan pembahasan
 
-![IMG-20251215-WA0013](https://github.com/user-attachments/assets/58129dbc-88a7-4b37-bbc8-b13339775eae)
+![IMG-20251215-WA0013](https://github.com/user-attachments/assets/a88b0acd-3a55-4c49-b248-1ea71affc276)
 
 ---
 
