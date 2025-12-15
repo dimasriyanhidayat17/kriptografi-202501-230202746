@@ -157,7 +157,8 @@ Verifikasi gagal: tanda tangan tidak cocok dengan pesan.
 
 ## 6.hasil dan pembahasan
 
-![IMG-20251215-WA0013](https://github.com/user-attachments/assets/a88b0acd-3a55-4c49-b248-1ea71affc276)
+
+<img width="1920" height="1080" alt="Screenshot 2025-12-15 133540" src="https://github.com/user-attachments/assets/9e09e4bb-b249-4fcc-83dd-e938e446927b" />
 
 ---
 
