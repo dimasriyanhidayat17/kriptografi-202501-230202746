@@ -19,9 +19,8 @@ Public Key Infrastructure (PKI) menyediakan kerangka kerja untuk mengelola serti
 
 ## 3. Alat dan Bahan
 - Python 3.11  
-- Visual Studio Code / editor lain  
+- Visual Studio Code 
 - Git dan akun GitHub  
-- Library tambahan (cryptography pyopenssl)
   
 ## 4. Langkah Percobaan
 1. Membuat file `pki.py` di folder `praktikum/week10-pki/src/`.
