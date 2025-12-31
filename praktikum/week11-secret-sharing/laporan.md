@@ -1,28 +1,24 @@
 # Laporan Praktikum Kriptografi
 Minggu ke-: XI
-Topik:   
+Topik: Shamir Secret Sharing (SSS). 
 Nama: Safira Dewi Rahmatika 
 NIM: 230202784  
 Kelas: 5IKRB
 
 ## 1. Tujuan
-(Tuliskan tujuan pembelajaran praktikum sesuai modul.)
-
----
+1. Menjelaskan konsep Shamir Secret Sharing (SSS).
+2. Melakukan simulasi pembagian rahasia ke beberapa pihak menggunakan skema SSS.
+3. Menganalisis keamanan skema distribusi rahasia
 
 ## 2. Dasar Teori
-(Ringkas teori relevan (cukup 2–3 paragraf).  
-Contoh: definisi cipher klasik, konsep modular aritmetika, dll.  )
+Shamir Secret Sharing (SSS) merupakan salah satu skema kriptografi yang digunakan untuk membagi sebuah rahasia menjadi beberapa bagian (share) dan mendistribusikannya kepada sejumlah pihak. Prinsip utama dari SSS adalah penggunaan polinomial matematika, di mana nilai rahasia disimpan sebagai konstanta dari sebuah polinomial berderajat tertentu. Setiap pihak menerima satu nilai hasil perhitungan polinomial tersebut, sehingga tidak ada satu pihak pun yang dapat mengetahui rahasia secara utuh tanpa bekerja sama dengan pihak lain. Rahasia hanya dapat direkonstruksi kembali apabila jumlah share yang digabungkan telah memenuhi ambang batas minimum yang telah ditentukan sebelumnya.
 
----
+Dalam prosesnya, SSS melakukan pembangkitan polinomial secara acak untuk menjaga kerahasiaan, kemudian membagikan hasilnya sebagai share kepada masing-masing pihak. Pada tahap rekonstruksi, beberapa pihak yang memenuhi ambang batas dapat menggunakan metode interpolasi, seperti interpolasi Lagrange, untuk memperoleh kembali polinomial awal dan menemukan rahasia yang tersimpan di dalamnya. Dari sisi keamanan, skema ini memiliki keunggulan karena bersifat sangat aman secara teoritis, di mana pihak yang memiliki jumlah share di bawah ambang batas tidak memperoleh informasi apa pun tentang rahasia. Oleh karena itu, Shamir Secret Sharing banyak digunakan dalam sistem terdistribusi, manajemen kunci kriptografi, serta aplikasi keamanan data yang membutuhkan perlindungan tinggi terhadap kebocoran informasi.
 
 ## 3. Alat dan Bahan
-(- Python 3.x  
+- Python 3.x  
 - Visual Studio Code / editor lain  
 - Git dan akun GitHub  
-- Library tambahan (misalnya pycryptodome, jika diperlukan)  )
-
----
 
 ## 4. Langkah Percobaan
 (Tuliskan langkah yang dilakukan sesuai instruksi.  
