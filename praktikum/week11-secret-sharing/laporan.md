@@ -58,16 +58,18 @@ Hasil eksekusi program Caesar Cipher:
 ---
 
 ## 7. Jawaban Pertanyaan
-(Jawab pertanyaan diskusi yang diberikan pada modul.  
-- Pertanyaan 1: …  
-- Pertanyaan 2: …  
-)
----
+JAWABAN 
+1. Keuntungan utama Shamir Secret Sharing dibanding membagikan salinan kunci secara langsung
+Keuntungan utama Shamir Secret Sharing (SSS) adalah keamanannya yang lebih tinggi. Dalam pembagian kunci secara langsung, setiap pihak memegang salinan kunci yang sama, sehingga jika satu kunci bocor atau hilang, seluruh sistem menjadi tidak aman. Pada SSS, tidak ada pihak yang memegang rahasia secara utuh. Setiap pihak hanya memiliki sebagian rahasia (share) yang tidak bermakna jika berdiri sendiri, sehingga kebocoran satu atau beberapa share tidak langsung mengungkapkan rahasia utama.
+
+2. Peran threshold (k) dalam keamanan secret sharing
+Threshold (k) berfungsi sebagai batas minimum jumlah share yang harus dikumpulkan untuk merekonstruksi rahasia. Nilai k menentukan tingkat keamanan sistem, karena pihak yang memiliki share kurang dari k tidak akan memperoleh informasi apa pun tentang rahasia. Semakin besar nilai k, semakin tinggi tingkat keamanan, namun semakin banyak pula pihak yang harus bekerja sama untuk membuka rahasia tersebut.
+
+3. Contoh skenario nyata penggunaan Shamir Secret Sharing
+Salah satu contoh penggunaan SSS adalah dalam pengelolaan kunci enkripsi pada sistem perbankan atau pusat data. Kunci utama server tidak disimpan oleh satu orang saja, melainkan dibagi ke beberapa administrator. Kunci hanya dapat digunakan jika sejumlah administrator tertentu hadir dan menggabungkan share mereka, sehingga mencegah penyalahgunaan kunci oleh satu pihak dan meningkatkan keamanan sistem secara keseluruhan.
 
 ## 8. Kesimpulan
-(Tuliskan kesimpulan singkat (2–3 kalimat) berdasarkan percobaan.  )
 
----
 
 ## 9. Daftar Pustaka
 (Cantumkan referensi yang digunakan.  
@@ -78,12 +80,8 @@ Contoh:
 ---
 
 ## 10. Commit Log
-(Tuliskan bukti commit Git yang relevan.  
-Contoh:
-```
 commit abc12345
-Author: Nama Mahasiswa <email>
-Date:   2025-09-20
+Author:safira dewi rahmatika safiraa1026@gmail.com
+Date:   2025-12-31
 
-    week2-cryptosystem: implementasi Caesar Cipher dan laporan )
-```
+    week11-Shamir Secret Sharing (SSS): 
