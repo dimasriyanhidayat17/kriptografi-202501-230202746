@@ -25,7 +25,9 @@ Keamanan Cryptocurrency Berbasis Kriptografi bergantung pada penerapan kriptogra
 - Library tambahan (misalnya pycryptodome, jika diperlukan)  )
 
 ## 4. Langkah Percobaan
-
+1. Membuat struktur blok
+2. Membuat blokchain
+3. Analisis Proof of Work (PoW)
 
 ## 5. Source Code
 <img width="1200" height="916" alt="Screenshot 2026-01-12 231805" src="https://github.com/user-attachments/assets/0c0f6bf9-dd02-4d42-a559-ec0b5a328786" />
@@ -58,5 +60,4 @@ Berdasarkan hasil simulasi Proof of Work menggunakan program tinychain.py, dapat
 Author: Dimas Riyan Hidayat dimasriyanhidayat01@gmail.com
 Date:   2026-01-12
 
-    week2-cryptosystem: implementasi Caesar Cipher dan laporan )
-```
+  week14-Tiny-chain 
