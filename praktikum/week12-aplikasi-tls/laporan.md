@@ -31,7 +31,7 @@ Langkah 3 — Analisis Etika & Privasi
 ## 5. Source Code
 
 ## 6. Hasil dan Pembahasan
-<img width="1564" height="957" alt="image" src="https://github.com/user-attachments/assets/e4717d28-dab9-46ab-a607-50ad7bc7a31e" />
+<img width="1831" height="1033" alt="image" src="https://github.com/user-attachments/assets/bb66b3c8-c5ab-4b1f-9e57-c54356601b39" />
 
 langkah 1
 Analisis SSL/TLS pada website e-commerce dapat dilakukan menggunakan browser seperti Chrome atau Firefox dengan memeriksa sertifikat digital melalui ikon gembok pada address bar. Pada website e-commerce seperti Tokopedia, Shopee, dan Bukalapak, sertifikat SSL/TLS umumnya diterbitkan oleh Certificate Authority (CA) tepercaya dengan masa berlaku tertentu dan diperbarui secara berkala. Algoritma enkripsi yang digunakan biasanya berupa kombinasi RSA atau ECDSA untuk pertukaran kunci dan AES untuk enkripsi data selama proses komunikasi.
