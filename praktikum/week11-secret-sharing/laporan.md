@@ -17,45 +17,17 @@ Dalam prosesnya, SSS melakukan pembangkitan polinomial secara acak untuk menjaga
 
 ## 3. Alat dan Bahan
 - Python 3.x  
-- Visual Studio Code / editor lain  
+- Visual Studio Code
 - Git dan akun GitHub  
 
 ## 4. Langkah Percobaan
-(Tuliskan langkah yang dilakukan sesuai instruksi.  
-Contoh format:
-1. Membuat file `caesar_cipher.py` di folder `praktikum/week2-cryptosystem/src/`.
-2. Menyalin kode program dari panduan praktikum.
-3. Menjalankan program dengan perintah `python caesar_cipher.py`.)
 
----
 
 ## 5. Source Code
-(Salin kode program utama yang dibuat atau dimodifikasi.  
-Gunakan blok kode:
 
-```python
-# contoh potongan kode
-def encrypt(text, key):
-    return ...
-```
-)
-
----
 
 ## 6. Hasil dan Pembahasan
-(- Lampirkan screenshot hasil eksekusi program (taruh di folder `screenshots/`).  
-- Berikan tabel atau ringkasan hasil uji jika diperlukan.  
-- Jelaskan apakah hasil sesuai ekspektasi.  
-- Bahas error (jika ada) dan solusinya. 
 
-Hasil eksekusi program Caesar Cipher:
-
-![Hasil Eksekusi](screenshots/output.png)
-![Hasil Input](screenshots/input.png)
-![Hasil Output](screenshots/output.png)
-)
-
----
 
 ## 7. Jawaban Pertanyaan
 JAWABAN 
@@ -80,7 +52,6 @@ Contoh:
 ---
 
 ## 10. Commit Log
-commit abc12345
 Author:safira dewi rahmatika safiraa1026@gmail.com
 Date:   2025-12-31
 
