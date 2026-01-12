@@ -21,13 +21,21 @@ Dalam prosesnya, SSS melakukan pembangkitan polinomial secara acak untuk menjaga
 - Git dan akun GitHub  
 
 ## 4. Langkah Percobaan
-
+1. Menginstal library secretsharing menggunakan pip install secretsharing.
+2. Mengimplementasikan Shamir Secret Sharing dengan Python.
+3. Melakukan simulasi manual menggunakan polinomial modulo bilangan prima.
+4. Menganalisis keamanan skema Shamir Secret Sharing.
+5. Menjawab pertanyaan diskusi.
+6. Menyelesaikan penulisan laporan laporan.md.
 
 ## 5. Source Code
+<img width="793" height="772" alt="image" src="https://github.com/user-attachments/assets/74f6202c-1538-4fee-81b1-bc7e5fdb8c77" />
 
 
 ## 6. Hasil dan Pembahasan
+<img width="454" height="177" alt="image" src="https://github.com/user-attachments/assets/73a8450f-2c23-4fac-a6d3-e48d459b3fe7" />
 
+Hasil pengujian menunjukkan bahwa rahasia berhasil dibagi menjadi beberapa share dengan nilai yang berbeda pada setiap eksekusi program karena penggunaan koefisien polinomial acak, namun proses rekonstruksi selalu menghasilkan nilai rahasia yang sama ketika jumlah share yang digunakan memenuhi nilai threshold, sehingga membuktikan bahwa implementasi Shamir Secret Sharing berjalan sesuai dengan konsep dan teori yang berlaku.
 
 ## 7. Jawaban Pertanyaan
 JAWABAN 
@@ -41,7 +49,7 @@ Threshold (k) berfungsi sebagai batas minimum jumlah share yang harus dikumpulka
 Salah satu contoh penggunaan SSS adalah dalam pengelolaan kunci enkripsi pada sistem perbankan atau pusat data. Kunci utama server tidak disimpan oleh satu orang saja, melainkan dibagi ke beberapa administrator. Kunci hanya dapat digunakan jika sejumlah administrator tertentu hadir dan menggabungkan share mereka, sehingga mencegah penyalahgunaan kunci oleh satu pihak dan meningkatkan keamanan sistem secara keseluruhan.
 
 ## 8. Kesimpulan
-
+Berdasarkan praktikum yang telah dilakukan, dapat disimpulkan bahwa Shamir Secret Sharing berhasil diimplementasikan dengan baik menggunakan Python. Rahasia dapat dibagi ke dalam beberapa share dan hanya dapat direkonstruksi kembali apabila jumlah share yang digunakan memenuhi nilai threshold yang telah ditentukan. Hasil percobaan menunjukkan bahwa skema ini mampu menjaga keamanan rahasia meskipun sebagian share diketahui, sehingga Shamir Secret Sharing efektif digunakan untuk distribusi dan pengelolaan rahasia secara aman.
 
 ## 9. Daftar Pustaka
 (Cantumkan referensi yang digunakan.  
