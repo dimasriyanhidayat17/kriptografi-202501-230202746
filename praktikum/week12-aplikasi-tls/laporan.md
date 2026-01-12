@@ -22,7 +22,6 @@ Kriptografi berperan penting dalam menjaga privasi komunikasi digital dengan mem
 - Python 3.11 
 - Visual Studio Code 
 - Git dan akun GitHub  
-- mengerjakan langkah 1 sampai selesai
 
 ## 4. Langkah Percobaan
 Langkah 1 — Analisis SSL/TLS pada Email & Web
