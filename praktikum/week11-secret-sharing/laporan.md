@@ -63,4 +63,4 @@ Contoh:
 Author:safira dewi rahmatika safiraa1026@gmail.com
 Date:   2025-12-31
 
-    week11-Shamir Secret Sharing (SSS): 
+    week11-Shamir Secret Sharing (SSS): Implementasi shamir Secret Sharing (SSS)
