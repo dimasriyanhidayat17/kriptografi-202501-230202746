@@ -68,7 +68,7 @@ Contoh:
 ## 10. Commit Log
 
 commit abc12345
-Author: Dimas Riyan Hidayat DimasRiyanHidayat@gmail.com
+Author: Dimas Riyan Hidayat dimasriyanhidayat01@gmail.com
 Date:   2026-01-23
 
   week-14 : Analisis Serangan
